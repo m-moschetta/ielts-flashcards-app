@@ -1,0 +1,702 @@
+[
+  {
+    "word": "analyze",
+    "level": "Base",
+    "definition": "To examine something carefully in order to understand it or explain it.",
+    "example": "Researchers analyze the survey responses before drawing conclusions.",
+    "translation": "analizzare"
+  },
+  {
+    "word": "approach",
+    "level": "Base",
+    "definition": "A method or way of dealing with a situation or problem.",
+    "example": "Her collaborative approach to teaching boosted class participation.",
+    "translation": "approccio"
+  },
+  {
+    "word": "assess",
+    "level": "Base",
+    "definition": "To evaluate the quality, ability, or value of something.",
+    "example": "Teachers assess each essay using a detailed rubric.",
+    "translation": "valutare"
+  },
+  {
+    "word": "assume",
+    "level": "Base",
+    "definition": "To accept something as true without proof.",
+    "example": "We cannot assume the policy will work in every context.",
+    "translation": "supporre"
+  },
+  {
+    "word": "authority",
+    "level": "Base",
+    "definition": "The power or right to give orders, make decisions, or control something.",
+    "example": "The city authority approved the new housing development.",
+    "translation": "autorità"
+  },
+  {
+    "word": "available",
+    "level": "Base",
+    "definition": "Able to be used, obtained, or reached.",
+    "example": "Several scholarships are available for international students.",
+    "translation": "disponibile"
+  },
+  {
+    "word": "benefit",
+    "level": "Base",
+    "definition": "An advantage, profit, or positive effect gained from something.",
+    "example": "Regular exercise provides a clear benefit to mental health.",
+    "translation": "beneficio"
+  },
+  {
+    "word": "concept",
+    "level": "Base",
+    "definition": "An abstract idea or general notion.",
+    "example": "The concept of sustainable growth guides the company's strategy.",
+    "translation": "concetto"
+  },
+  {
+    "word": "consistent",
+    "level": "Base",
+    "definition": "Always behaving or happening in the same way; compatible.",
+    "example": "She delivered consistent results during the entire project.",
+    "translation": "coerente"
+  },
+  {
+    "word": "context",
+    "level": "Base",
+    "definition": "The circumstances or background that form the setting for an event or idea.",
+    "example": "You need to understand the context before interpreting the remark.",
+    "translation": "contesto"
+  },
+  {
+    "word": "create",
+    "level": "Base",
+    "definition": "To bring something into existence or cause something new to happen.",
+    "example": "The designers create prototypes to test their ideas quickly.",
+    "translation": "creare"
+  },
+  {
+    "word": "data",
+    "level": "Base",
+    "definition": "Facts and statistics collected for reference or analysis.",
+    "example": "The lab stored all climate data in a shared repository.",
+    "translation": "dati"
+  },
+  {
+    "word": "define",
+    "level": "Base",
+    "definition": "To explain the meaning of a word or idea precisely.",
+    "example": "The contract must define each technical term clearly.",
+    "translation": "definire"
+  },
+  {
+    "word": "derive",
+    "level": "Base",
+    "definition": "To obtain or develop something from a particular source.",
+    "example": "Scientists derive new hypotheses from previous studies.",
+    "translation": "derivare"
+  },
+  {
+    "word": "economy",
+    "level": "Base",
+    "definition": "The system of production, distribution, and consumption of goods and services.",
+    "example": "Tourism plays a vital role in the island's economy.",
+    "translation": "economia"
+  },
+  {
+    "word": "environment",
+    "level": "Base",
+    "definition": "The surroundings or conditions in which a person, animal, or plant lives or operates.",
+    "example": "A calm environment helps children concentrate on homework.",
+    "translation": "ambiente"
+  },
+  {
+    "word": "establish",
+    "level": "Base",
+    "definition": "To set up or create something on a firm or lasting basis.",
+    "example": "The university plans to establish a new research center.",
+    "translation": "stabilire"
+  },
+  {
+    "word": "evidence",
+    "level": "Base",
+    "definition": "Facts or information indicating whether something is true or valid.",
+    "example": "There is strong evidence that the program improves literacy.",
+    "translation": "prova"
+  },
+  {
+    "word": "factor",
+    "level": "Base",
+    "definition": "Something that contributes to a result or outcome.",
+    "example": "Price is an important factor when consumers choose a product.",
+    "translation": "fattore"
+  },
+  {
+    "word": "finance",
+    "level": "Base",
+    "definition": "The management of money, banking, investments, and other financial instruments.",
+    "example": "She studied finance to learn how markets allocate capital.",
+    "translation": "finanza"
+  },
+  {
+    "word": "formula",
+    "level": "Base",
+    "definition": "A mathematical rule or chemical relationship expressed in symbols.",
+    "example": "The students memorized the formula for calculating area.",
+    "translation": "formula"
+  },
+  {
+    "word": "function",
+    "level": "Base",
+    "definition": "The purpose or role that something is designed to perform.",
+    "example": "This button's function is to reset the device.",
+    "translation": "funzione"
+  },
+  {
+    "word": "identify",
+    "level": "Base",
+    "definition": "To recognize or establish what something is.",
+    "example": "The software can identify errors in the dataset automatically.",
+    "translation": "identificare"
+  },
+  {
+    "word": "income",
+    "level": "Base",
+    "definition": "Money received regularly for work or investments.",
+    "example": "Their household income increased after the promotion.",
+    "translation": "reddito"
+  },
+  {
+    "word": "indicate",
+    "level": "Base",
+    "definition": "To point out, show, or suggest something.",
+    "example": "Survey results indicate growing support for the reform.",
+    "translation": "indicare"
+  },
+  {
+    "word": "interpret",
+    "level": "Base",
+    "definition": "To explain the meaning of information, words, or actions.",
+    "example": "Historians interpret the letters to understand daily life in the past.",
+    "translation": "interpretare"
+  },
+  {
+    "word": "involve",
+    "level": "Base",
+    "definition": "To include or require as a necessary part.",
+    "example": "The internship will involve both fieldwork and laboratory analysis.",
+    "translation": "coinvolgere"
+  },
+  {
+    "word": "issue",
+    "level": "Base",
+    "definition": "An important topic or problem for debate or discussion.",
+    "example": "Climate change remains a central issue in the election campaign.",
+    "translation": "questione"
+  },
+  {
+    "word": "labor",
+    "level": "Base",
+    "definition": "Work, especially physical work, or the workers as a group.",
+    "example": "New regulations aim to protect labor in hazardous industries.",
+    "translation": "lavoro"
+  },
+  {
+    "word": "legal",
+    "level": "Base",
+    "definition": "Related to the law or permitted by law.",
+    "example": "You must seek legal advice before signing the agreement.",
+    "translation": "legale"
+  },
+  {
+    "word": "major",
+    "level": "Base",
+    "definition": "Very large, important, or serious.",
+    "example": "The storm caused major damage to coastal towns.",
+    "translation": "principale"
+  },
+  {
+    "word": "method",
+    "level": "Base",
+    "definition": "A particular way of doing something, especially a systematic one.",
+    "example": "The scientific method requires careful observation and testing.",
+    "translation": "metodo"
+  },
+  {
+    "word": "occur",
+    "level": "Base",
+    "definition": "To happen or take place.",
+    "example": "Several minor errors occur when the system is overloaded.",
+    "translation": "accadere"
+  },
+  {
+    "word": "percent",
+    "level": "Base",
+    "definition": "One part in every hundred; a proportion.",
+    "example": "Unemployment dropped by two percent last year.",
+    "translation": "percentuale"
+  },
+  {
+    "word": "period",
+    "level": "Base",
+    "definition": "A length or portion of time.",
+    "example": "The course covers the medieval period in European history.",
+    "translation": "periodo"
+  },
+  {
+    "word": "policy",
+    "level": "Base",
+    "definition": "A course or principle of action adopted by an organization or individual.",
+    "example": "The company introduced a policy to encourage remote work.",
+    "translation": "politica"
+  },
+  {
+    "word": "principle",
+    "level": "Base",
+    "definition": "A fundamental rule or belief that guides behavior or reasoning.",
+    "example": "Honesty is a principle that guides her decisions.",
+    "translation": "principio"
+  },
+  {
+    "word": "proceed",
+    "level": "Base",
+    "definition": "To begin or continue a course of action.",
+    "example": "Once everyone agrees, we can proceed with the plan.",
+    "translation": "procedere"
+  },
+  {
+    "word": "process",
+    "level": "Base",
+    "definition": "A series of actions taken to achieve a particular result.",
+    "example": "Quality control is built into every step of the process.",
+    "translation": "processo"
+  },
+  {
+    "word": "require",
+    "level": "Base",
+    "definition": "To need something or make something necessary.",
+    "example": "Most graduate programs require letters of recommendation.",
+    "translation": "richiedere"
+  },
+  {
+    "word": "research",
+    "level": "Intermedio",
+    "definition": "Systematic investigation to discover or establish facts.",
+    "example": "They received a grant to conduct research on renewable energy.",
+    "translation": "ricerca"
+  },
+  {
+    "word": "respond",
+    "level": "Intermedio",
+    "definition": "To reply or react to something.",
+    "example": "The spokesperson will respond to questions after the briefing.",
+    "translation": "rispondere"
+  },
+  {
+    "word": "role",
+    "level": "Intermedio",
+    "definition": "The part played by a person or thing in a particular situation.",
+    "example": "Parents play a crucial role in early language development.",
+    "translation": "ruolo"
+  },
+  {
+    "word": "section",
+    "level": "Intermedio",
+    "definition": "A distinct part or subdivision of something.",
+    "example": "Please read the safety section before operating the machine.",
+    "translation": "sezione"
+  },
+  {
+    "word": "sector",
+    "level": "Intermedio",
+    "definition": "A distinct part of an area of activity, especially economic.",
+    "example": "The technology sector grew rapidly this quarter.",
+    "translation": "settore"
+  },
+  {
+    "word": "significant",
+    "level": "Intermedio",
+    "definition": "Important or meaningful; having a noticeable effect.",
+    "example": "There was a significant improvement in test scores.",
+    "translation": "significativo"
+  },
+  {
+    "word": "similar",
+    "level": "Intermedio",
+    "definition": "Having a resemblance or likeness.",
+    "example": "The twins have similar interests and hobbies.",
+    "translation": "simile"
+  },
+  {
+    "word": "source",
+    "level": "Intermedio",
+    "definition": "The place or person from which something originates.",
+    "example": "The journalist checked every source before publishing the article.",
+    "translation": "fonte"
+  },
+  {
+    "word": "structure",
+    "level": "Intermedio",
+    "definition": "The arrangement of parts in an organism, object, or system.",
+    "example": "The bridge's steel structure can withstand high winds.",
+    "translation": "struttura"
+  },
+  {
+    "word": "theory",
+    "level": "Intermedio",
+    "definition": "A system of ideas intended to explain something.",
+    "example": "According to the theory, supply and demand reach equilibrium.",
+    "translation": "teoria"
+  },
+  {
+    "word": "vary",
+    "level": "Intermedio",
+    "definition": "To differ or change from one instance to another.",
+    "example": "Student needs vary depending on their background.",
+    "translation": "variare"
+  },
+  {
+    "word": "achieve",
+    "level": "Intermedio",
+    "definition": "To successfully reach a goal, usually through effort.",
+    "example": "She worked hard to achieve top marks in the exam.",
+    "translation": "raggiungere"
+  },
+  {
+    "word": "acquire",
+    "level": "Intermedio",
+    "definition": "To gain possession or control of something.",
+    "example": "You can acquire new skills through continuous practice.",
+    "translation": "acquisire"
+  },
+  {
+    "word": "affect",
+    "level": "Intermedio",
+    "definition": "To influence or cause a change in something.",
+    "example": "Rising prices affect every household budget.",
+    "translation": "influenzare"
+  },
+  {
+    "word": "appropriate",
+    "level": "Intermedio",
+    "definition": "Suitable or proper for a particular situation.",
+    "example": "Choose an appropriate tone when writing formal emails.",
+    "translation": "appropriato"
+  },
+  {
+    "word": "aspect",
+    "level": "Intermedio",
+    "definition": "A particular part or feature of something.",
+    "example": "The cultural aspect of the program attracts many participants.",
+    "translation": "aspetto"
+  },
+  {
+    "word": "assist",
+    "level": "Intermedio",
+    "definition": "To help someone or make a task easier.",
+    "example": "Volunteers assist visitors during the festival.",
+    "translation": "assistere"
+  },
+  {
+    "word": "category",
+    "level": "Intermedio",
+    "definition": "A group of things sharing common characteristics.",
+    "example": "Please select the correct category for your expense report.",
+    "translation": "categoria"
+  },
+  {
+    "word": "chapter",
+    "level": "Intermedio",
+    "definition": "A main division of a book or document.",
+    "example": "Chapter three explains the study's methodology.",
+    "translation": "capitolo"
+  },
+  {
+    "word": "commission",
+    "level": "Intermedio",
+    "definition": "An official group tasked with a particular function, or the act of assigning a task.",
+    "example": "The government formed a commission to investigate the accident.",
+    "translation": "commissione"
+  },
+  {
+    "word": "community",
+    "level": "Intermedio",
+    "definition": "A group of people living in the same place or sharing common interests.",
+    "example": "The community organized a cleanup of the local park.",
+    "translation": "comunità"
+  },
+  {
+    "word": "complex",
+    "level": "Intermedio",
+    "definition": "Consisting of many different and connected parts; not simple.",
+    "example": "Managing the supply chain is a complex challenge.",
+    "translation": "complesso"
+  },
+  {
+    "word": "compute",
+    "level": "Intermedio",
+    "definition": "To calculate a result using mathematics or computers.",
+    "example": "The program can compute thousands of records in seconds.",
+    "translation": "calcolare"
+  },
+  {
+    "word": "conclude",
+    "level": "Intermedio",
+    "definition": "To bring something to an end or to reach a judgment.",
+    "example": "We can conclude from the evidence that the policy succeeded.",
+    "translation": "concludere"
+  },
+  {
+    "word": "conduct",
+    "level": "Intermedio",
+    "definition": "To organize and carry out an activity or to behave in a certain way.",
+    "example": "Researchers conduct interviews with local residents.",
+    "translation": "condurre"
+  },
+  {
+    "word": "consequence",
+    "level": "Intermedio",
+    "definition": "A result or effect of an action or condition.",
+    "example": "One consequence of the drought is higher food prices.",
+    "translation": "conseguenza"
+  },
+  {
+    "word": "construct",
+    "level": "Intermedio",
+    "definition": "To build or form something by putting parts together.",
+    "example": "Engineers will construct a new bridge over the river.",
+    "translation": "costruire"
+  },
+  {
+    "word": "consume",
+    "level": "Intermedio",
+    "definition": "To use up or eat resources or goods.",
+    "example": "Modern appliances consume less electricity than older models.",
+    "translation": "consumare"
+  },
+  {
+    "word": "credit",
+    "level": "Intermedio",
+    "definition": "Praise or recognition for an achievement; also the ability to obtain goods before payment.",
+    "example": "She received credit for improving the training program.",
+    "translation": "credito"
+  },
+  {
+    "word": "culture",
+    "level": "Intermedio",
+    "definition": "The customs, arts, and social institutions of a group of people.",
+    "example": "Studying abroad helps students understand another culture.",
+    "translation": "cultura"
+  },
+  {
+    "word": "design",
+    "level": "Intermedio",
+    "definition": "To plan the form or structure of something.",
+    "example": "Architects design buildings that balance beauty and function.",
+    "translation": "progettare"
+  },
+  {
+    "word": "distinct",
+    "level": "Intermedio",
+    "definition": "Clearly separate and different from something else.",
+    "example": "The study identifies three distinct patterns of behavior.",
+    "translation": "distinto"
+  },
+  {
+    "word": "element",
+    "level": "Intermedio",
+    "definition": "A basic or essential part of something.",
+    "example": "Trust is a key element of effective teamwork.",
+    "translation": "elemento"
+  },
+  {
+    "word": "equate",
+    "level": "Intermedio",
+    "definition": "To consider one thing to be the same as another.",
+    "example": "We should not equate wealth with happiness.",
+    "translation": "equiparare"
+  },
+  {
+    "word": "evaluate",
+    "level": "Intermedio",
+    "definition": "To judge or determine the value or quality of something.",
+    "example": "The committee will evaluate the grant proposals next week.",
+    "translation": "valutare"
+  },
+  {
+    "word": "feature",
+    "level": "Intermedio",
+    "definition": "A distinctive attribute or aspect of something.",
+    "example": "This smartphone's main feature is its high-resolution camera.",
+    "translation": "caratteristica"
+  },
+  {
+    "word": "final",
+    "level": "Intermedio",
+    "definition": "Coming at the end; last.",
+    "example": "The final report is due at the end of the month.",
+    "translation": "finale"
+  },
+  {
+    "word": "focus",
+    "level": "Intermedio",
+    "definition": "To concentrate attention or effort on something.",
+    "example": "This semester we will focus on academic writing.",
+    "translation": "concentrarsi"
+  },
+  {
+    "word": "impact",
+    "level": "Intermedio",
+    "definition": "A strong effect or influence on something.",
+    "example": "The new policy had a positive impact on employment.",
+    "translation": "impatto"
+  },
+  {
+    "word": "injure",
+    "level": "Intermedio",
+    "definition": "To harm or damage a person or thing.",
+    "example": "Falling debris could injure workers at the site.",
+    "translation": "ferire"
+  },
+  {
+    "word": "institute",
+    "level": "Avanzato",
+    "definition": "To establish something, especially an organization or system.",
+    "example": "The board voted to institute stricter safety measures.",
+    "translation": "istituire"
+  },
+  {
+    "word": "invest",
+    "level": "Avanzato",
+    "definition": "To put money, time, or effort into something expecting a return.",
+    "example": "The firm will invest in modernizing its factories.",
+    "translation": "investire"
+  },
+  {
+    "word": "journal",
+    "level": "Avanzato",
+    "definition": "A magazine or record that publishes academic or professional information.",
+    "example": "She submitted her findings to a medical journal.",
+    "translation": "rivista"
+  },
+  {
+    "word": "maintain",
+    "level": "Avanzato",
+    "definition": "To keep something in good condition or continue a state.",
+    "example": "Technicians maintain the equipment every month.",
+    "translation": "mantenere"
+  },
+  {
+    "word": "normal",
+    "level": "Avanzato",
+    "definition": "Usual, typical, or expected.",
+    "example": "After the repairs, production returned to normal levels.",
+    "translation": "normale"
+  },
+  {
+    "word": "obtain",
+    "level": "Avanzato",
+    "definition": "To get or acquire something.",
+    "example": "Students must obtain a permit before using the laboratory.",
+    "translation": "ottenere"
+  },
+  {
+    "word": "participate",
+    "level": "Avanzato",
+    "definition": "To take part in an activity or event.",
+    "example": "Thousands will participate in the city marathon.",
+    "translation": "partecipare"
+  },
+  {
+    "word": "perceive",
+    "level": "Avanzato",
+    "definition": "To become aware of or understand something through the senses or mind.",
+    "example": "Consumers perceive the brand as reliable.",
+    "translation": "percepire"
+  },
+  {
+    "word": "positive",
+    "level": "Avanzato",
+    "definition": "Hopeful, constructive, or expressing approval.",
+    "example": "She offered a positive response to the proposal.",
+    "translation": "positivo"
+  },
+  {
+    "word": "potential",
+    "level": "Avanzato",
+    "definition": "Having the capacity to develop into something in the future.",
+    "example": "The startup has enormous potential for growth.",
+    "translation": "potenziale"
+  },
+  {
+    "word": "previous",
+    "level": "Avanzato",
+    "definition": "Existing or happening before the present time.",
+    "example": "Please include data from the previous year as well.",
+    "translation": "precedente"
+  },
+  {
+    "word": "primary",
+    "level": "Avanzato",
+    "definition": "Most important; main.",
+    "example": "Cost remains the primary concern for many buyers.",
+    "translation": "primario"
+  },
+  {
+    "word": "purchase",
+    "level": "Avanzato",
+    "definition": "To buy something.",
+    "example": "They decided to purchase new laboratory equipment.",
+    "translation": "acquistare"
+  },
+  {
+    "word": "range",
+    "level": "Avanzato",
+    "definition": "The extent or scope of something between limits.",
+    "example": "This model offers a wide range of customization options.",
+    "translation": "gamma"
+  },
+  {
+    "word": "region",
+    "level": "Avanzato",
+    "definition": "A particular area or division of the world or a country.",
+    "example": "The mountain region attracts tourists year-round.",
+    "translation": "regione"
+  },
+  {
+    "word": "regulate",
+    "level": "Avanzato",
+    "definition": "To control or direct according to rules or laws.",
+    "example": "New policies will regulate emissions from factories.",
+    "translation": "regolare"
+  },
+  {
+    "word": "relevant",
+    "level": "Avanzato",
+    "definition": "Closely connected or applicable to the matter at hand.",
+    "example": "Only submit documents that are relevant to the claim.",
+    "translation": "pertinente"
+  },
+  {
+    "word": "resource",
+    "level": "Avanzato",
+    "definition": "A supply of materials, money, or assets that can be used.",
+    "example": "Water is a precious resource in arid climates.",
+    "translation": "risorsa"
+  },
+  {
+    "word": "resident",
+    "level": "Avanzato",
+    "definition": "A person who lives in a particular place.",
+    "example": "Every resident received a survey about public transport.",
+    "translation": "residente"
+  },
+  {
+    "word": "security",
+    "level": "Avanzato",
+    "definition": "The state of being free from danger or threat.",
+    "example": "Airport security has been tightened this summer.",
+    "translation": "sicurezza"
+  }
+]
