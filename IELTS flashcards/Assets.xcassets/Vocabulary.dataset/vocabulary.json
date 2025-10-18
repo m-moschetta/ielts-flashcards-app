@@ -1,702 +1,2912 @@
 [
   {
-    "word": "analyze",
-    "level": "Base",
-    "definition": "To examine something carefully in order to understand it or explain it.",
-    "example": "Researchers analyze the survey responses before drawing conclusions.",
-    "translation": "analizzare"
-  },
-  {
-    "word": "approach",
-    "level": "Base",
-    "definition": "A method or way of dealing with a situation or problem.",
-    "example": "Her collaborative approach to teaching boosted class participation.",
-    "translation": "approccio"
-  },
-  {
-    "word": "assess",
-    "level": "Base",
-    "definition": "To evaluate the quality, ability, or value of something.",
-    "example": "Teachers assess each essay using a detailed rubric.",
-    "translation": "valutare"
-  },
-  {
-    "word": "assume",
-    "level": "Base",
-    "definition": "To accept something as true without proof.",
-    "example": "We cannot assume the policy will work in every context.",
-    "translation": "supporre"
-  },
-  {
-    "word": "authority",
-    "level": "Base",
-    "definition": "The power or right to give orders, make decisions, or control something.",
-    "example": "The city authority approved the new housing development.",
-    "translation": "autorità"
-  },
-  {
-    "word": "available",
-    "level": "Base",
-    "definition": "Able to be used, obtained, or reached.",
-    "example": "Several scholarships are available for international students.",
-    "translation": "disponibile"
-  },
-  {
-    "word": "benefit",
-    "level": "Base",
-    "definition": "An advantage, profit, or positive effect gained from something.",
-    "example": "Regular exercise provides a clear benefit to mental health.",
-    "translation": "beneficio"
-  },
-  {
-    "word": "concept",
-    "level": "Base",
-    "definition": "An abstract idea or general notion.",
-    "example": "The concept of sustainable growth guides the company's strategy.",
-    "translation": "concetto"
-  },
-  {
-    "word": "consistent",
-    "level": "Base",
-    "definition": "Always behaving or happening in the same way; compatible.",
-    "example": "She delivered consistent results during the entire project.",
-    "translation": "coerente"
-  },
-  {
-    "word": "context",
-    "level": "Base",
-    "definition": "The circumstances or background that form the setting for an event or idea.",
-    "example": "You need to understand the context before interpreting the remark.",
-    "translation": "contesto"
-  },
-  {
-    "word": "create",
-    "level": "Base",
-    "definition": "To bring something into existence or cause something new to happen.",
-    "example": "The designers create prototypes to test their ideas quickly.",
-    "translation": "creare"
-  },
-  {
-    "word": "data",
-    "level": "Base",
-    "definition": "Facts and statistics collected for reference or analysis.",
-    "example": "The lab stored all climate data in a shared repository.",
-    "translation": "dati"
-  },
-  {
-    "word": "define",
-    "level": "Base",
-    "definition": "To explain the meaning of a word or idea precisely.",
-    "example": "The contract must define each technical term clearly.",
-    "translation": "definire"
-  },
-  {
-    "word": "derive",
-    "level": "Base",
-    "definition": "To obtain or develop something from a particular source.",
-    "example": "Scientists derive new hypotheses from previous studies.",
-    "translation": "derivare"
-  },
-  {
-    "word": "economy",
-    "level": "Base",
-    "definition": "The system of production, distribution, and consumption of goods and services.",
-    "example": "Tourism plays a vital role in the island's economy.",
-    "translation": "economia"
-  },
-  {
-    "word": "environment",
-    "level": "Base",
-    "definition": "The surroundings or conditions in which a person, animal, or plant lives or operates.",
-    "example": "A calm environment helps children concentrate on homework.",
-    "translation": "ambiente"
-  },
-  {
-    "word": "establish",
-    "level": "Base",
-    "definition": "To set up or create something on a firm or lasting basis.",
-    "example": "The university plans to establish a new research center.",
-    "translation": "stabilire"
-  },
-  {
-    "word": "evidence",
-    "level": "Base",
-    "definition": "Facts or information indicating whether something is true or valid.",
-    "example": "There is strong evidence that the program improves literacy.",
-    "translation": "prova"
-  },
-  {
-    "word": "factor",
-    "level": "Base",
-    "definition": "Something that contributes to a result or outcome.",
-    "example": "Price is an important factor when consumers choose a product.",
-    "translation": "fattore"
-  },
-  {
-    "word": "finance",
-    "level": "Base",
-    "definition": "The management of money, banking, investments, and other financial instruments.",
-    "example": "She studied finance to learn how markets allocate capital.",
-    "translation": "finanza"
-  },
-  {
-    "word": "formula",
-    "level": "Base",
-    "definition": "A mathematical rule or chemical relationship expressed in symbols.",
-    "example": "The students memorized the formula for calculating area.",
-    "translation": "formula"
-  },
-  {
-    "word": "function",
-    "level": "Base",
-    "definition": "The purpose or role that something is designed to perform.",
-    "example": "This button's function is to reset the device.",
-    "translation": "funzione"
-  },
-  {
-    "word": "identify",
-    "level": "Base",
-    "definition": "To recognize or establish what something is.",
-    "example": "The software can identify errors in the dataset automatically.",
-    "translation": "identificare"
-  },
-  {
-    "word": "income",
-    "level": "Base",
-    "definition": "Money received regularly for work or investments.",
-    "example": "Their household income increased after the promotion.",
-    "translation": "reddito"
-  },
-  {
-    "word": "indicate",
-    "level": "Base",
-    "definition": "To point out, show, or suggest something.",
-    "example": "Survey results indicate growing support for the reform.",
-    "translation": "indicare"
-  },
-  {
-    "word": "interpret",
-    "level": "Base",
-    "definition": "To explain the meaning of information, words, or actions.",
-    "example": "Historians interpret the letters to understand daily life in the past.",
-    "translation": "interpretare"
-  },
-  {
-    "word": "involve",
-    "level": "Base",
-    "definition": "To include or require as a necessary part.",
-    "example": "The internship will involve both fieldwork and laboratory analysis.",
-    "translation": "coinvolgere"
-  },
-  {
-    "word": "issue",
-    "level": "Base",
-    "definition": "An important topic or problem for debate or discussion.",
-    "example": "Climate change remains a central issue in the election campaign.",
-    "translation": "questione"
-  },
-  {
-    "word": "labor",
-    "level": "Base",
-    "definition": "Work, especially physical work, or the workers as a group.",
-    "example": "New regulations aim to protect labor in hazardous industries.",
-    "translation": "lavoro"
-  },
-  {
-    "word": "legal",
-    "level": "Base",
-    "definition": "Related to the law or permitted by law.",
-    "example": "You must seek legal advice before signing the agreement.",
-    "translation": "legale"
-  },
-  {
-    "word": "major",
-    "level": "Base",
-    "definition": "Very large, important, or serious.",
-    "example": "The storm caused major damage to coastal towns.",
-    "translation": "principale"
-  },
-  {
-    "word": "method",
-    "level": "Base",
-    "definition": "A particular way of doing something, especially a systematic one.",
-    "example": "The scientific method requires careful observation and testing.",
-    "translation": "metodo"
-  },
-  {
-    "word": "occur",
-    "level": "Base",
-    "definition": "To happen or take place.",
-    "example": "Several minor errors occur when the system is overloaded.",
-    "translation": "accadere"
-  },
-  {
-    "word": "percent",
-    "level": "Base",
-    "definition": "One part in every hundred; a proportion.",
-    "example": "Unemployment dropped by two percent last year.",
-    "translation": "percentuale"
-  },
-  {
-    "word": "period",
-    "level": "Base",
-    "definition": "A length or portion of time.",
-    "example": "The course covers the medieval period in European history.",
-    "translation": "periodo"
-  },
-  {
-    "word": "policy",
-    "level": "Base",
-    "definition": "A course or principle of action adopted by an organization or individual.",
-    "example": "The company introduced a policy to encourage remote work.",
-    "translation": "politica"
-  },
-  {
-    "word": "principle",
-    "level": "Base",
-    "definition": "A fundamental rule or belief that guides behavior or reasoning.",
-    "example": "Honesty is a principle that guides her decisions.",
-    "translation": "principio"
-  },
-  {
-    "word": "proceed",
-    "level": "Base",
-    "definition": "To begin or continue a course of action.",
-    "example": "Once everyone agrees, we can proceed with the plan.",
-    "translation": "procedere"
-  },
-  {
-    "word": "process",
-    "level": "Base",
-    "definition": "A series of actions taken to achieve a particular result.",
-    "example": "Quality control is built into every step of the process.",
-    "translation": "processo"
-  },
-  {
-    "word": "require",
-    "level": "Base",
-    "definition": "To need something or make something necessary.",
-    "example": "Most graduate programs require letters of recommendation.",
-    "translation": "richiedere"
-  },
-  {
-    "word": "research",
-    "level": "Intermedio",
-    "definition": "Systematic investigation to discover or establish facts.",
-    "example": "They received a grant to conduct research on renewable energy.",
-    "translation": "ricerca"
-  },
-  {
-    "word": "respond",
-    "level": "Intermedio",
-    "definition": "To reply or react to something.",
-    "example": "The spokesperson will respond to questions after the briefing.",
-    "translation": "rispondere"
-  },
-  {
-    "word": "role",
-    "level": "Intermedio",
-    "definition": "The part played by a person or thing in a particular situation.",
-    "example": "Parents play a crucial role in early language development.",
-    "translation": "ruolo"
-  },
-  {
-    "word": "section",
-    "level": "Intermedio",
-    "definition": "A distinct part or subdivision of something.",
-    "example": "Please read the safety section before operating the machine.",
-    "translation": "sezione"
-  },
-  {
-    "word": "sector",
-    "level": "Intermedio",
-    "definition": "A distinct part of an area of activity, especially economic.",
-    "example": "The technology sector grew rapidly this quarter.",
-    "translation": "settore"
-  },
-  {
-    "word": "significant",
-    "level": "Intermedio",
-    "definition": "Important or meaningful; having a noticeable effect.",
-    "example": "There was a significant improvement in test scores.",
-    "translation": "significativo"
-  },
-  {
-    "word": "similar",
-    "level": "Intermedio",
-    "definition": "Having a resemblance or likeness.",
-    "example": "The twins have similar interests and hobbies.",
-    "translation": "simile"
-  },
-  {
-    "word": "source",
-    "level": "Intermedio",
-    "definition": "The place or person from which something originates.",
-    "example": "The journalist checked every source before publishing the article.",
-    "translation": "fonte"
-  },
-  {
-    "word": "structure",
-    "level": "Intermedio",
-    "definition": "The arrangement of parts in an organism, object, or system.",
-    "example": "The bridge's steel structure can withstand high winds.",
-    "translation": "struttura"
-  },
-  {
-    "word": "theory",
-    "level": "Intermedio",
-    "definition": "A system of ideas intended to explain something.",
-    "example": "According to the theory, supply and demand reach equilibrium.",
-    "translation": "teoria"
-  },
-  {
-    "word": "vary",
-    "level": "Intermedio",
-    "definition": "To differ or change from one instance to another.",
-    "example": "Student needs vary depending on their background.",
-    "translation": "variare"
-  },
-  {
     "word": "achieve",
     "level": "Intermedio",
     "definition": "To successfully reach a goal, usually through effort.",
     "example": "She worked hard to achieve top marks in the exam.",
-    "translation": "raggiungere"
+    "translation": "raggiungere",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "acquire",
     "level": "Intermedio",
     "definition": "To gain possession or control of something.",
     "example": "You can acquire new skills through continuous practice.",
-    "translation": "acquisire"
+    "translation": "acquisire",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "affect",
     "level": "Intermedio",
     "definition": "To influence or cause a change in something.",
     "example": "Rising prices affect every household budget.",
-    "translation": "influenzare"
+    "translation": "influenzare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "analyze",
+    "level": "Base",
+    "definition": "To examine something carefully in order to understand it or explain it.",
+    "example": "Researchers analyze the survey responses before drawing conclusions.",
+    "translation": "analizzare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "approach",
+    "level": "Base",
+    "definition": "A method or way of dealing with a situation or problem.",
+    "example": "Her collaborative approach to teaching boosted class participation.",
+    "translation": "approccio",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "appropriate",
     "level": "Intermedio",
     "definition": "Suitable or proper for a particular situation.",
     "example": "Choose an appropriate tone when writing formal emails.",
-    "translation": "appropriato"
+    "translation": "appropriato",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "aspect",
     "level": "Intermedio",
     "definition": "A particular part or feature of something.",
     "example": "The cultural aspect of the program attracts many participants.",
-    "translation": "aspetto"
+    "translation": "aspetto",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "assess",
+    "level": "Base",
+    "definition": "To evaluate the quality, ability, or value of something.",
+    "example": "Teachers assess each essay using a detailed rubric.",
+    "translation": "valutare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "assist",
     "level": "Intermedio",
     "definition": "To help someone or make a task easier.",
     "example": "Volunteers assist visitors during the festival.",
-    "translation": "assistere"
+    "translation": "assistere",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "assume",
+    "level": "Base",
+    "definition": "To accept something as true without proof.",
+    "example": "We cannot assume the policy will work in every context.",
+    "translation": "supporre",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "authority",
+    "level": "Base",
+    "definition": "The power or right to give orders, make decisions, or control something.",
+    "example": "The city authority approved the new housing development.",
+    "translation": "autorità",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "available",
+    "level": "Base",
+    "definition": "Able to be used, obtained, or reached.",
+    "example": "Several scholarships are available for international students.",
+    "translation": "disponibile",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "benefit",
+    "level": "Base",
+    "definition": "An advantage, profit, or positive effect gained from something.",
+    "example": "Regular exercise provides a clear benefit to mental health.",
+    "translation": "beneficio",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "category",
     "level": "Intermedio",
     "definition": "A group of things sharing common characteristics.",
     "example": "Please select the correct category for your expense report.",
-    "translation": "categoria"
+    "translation": "categoria",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "chapter",
     "level": "Intermedio",
     "definition": "A main division of a book or document.",
     "example": "Chapter three explains the study's methodology.",
-    "translation": "capitolo"
+    "translation": "capitolo",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "commission",
     "level": "Intermedio",
     "definition": "An official group tasked with a particular function, or the act of assigning a task.",
     "example": "The government formed a commission to investigate the accident.",
-    "translation": "commissione"
+    "translation": "commissione",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "community",
     "level": "Intermedio",
     "definition": "A group of people living in the same place or sharing common interests.",
     "example": "The community organized a cleanup of the local park.",
-    "translation": "comunità"
+    "translation": "comunità",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "complex",
     "level": "Intermedio",
     "definition": "Consisting of many different and connected parts; not simple.",
     "example": "Managing the supply chain is a complex challenge.",
-    "translation": "complesso"
+    "translation": "complesso",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "compute",
     "level": "Intermedio",
     "definition": "To calculate a result using mathematics or computers.",
     "example": "The program can compute thousands of records in seconds.",
-    "translation": "calcolare"
+    "translation": "calcolare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "concept",
+    "level": "Base",
+    "definition": "An abstract idea or general notion.",
+    "example": "The concept of sustainable growth guides the company's strategy.",
+    "translation": "concetto",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "conclude",
     "level": "Intermedio",
     "definition": "To bring something to an end or to reach a judgment.",
     "example": "We can conclude from the evidence that the policy succeeded.",
-    "translation": "concludere"
+    "translation": "concludere",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "conduct",
     "level": "Intermedio",
     "definition": "To organize and carry out an activity or to behave in a certain way.",
     "example": "Researchers conduct interviews with local residents.",
-    "translation": "condurre"
+    "translation": "condurre",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "consequence",
     "level": "Intermedio",
     "definition": "A result or effect of an action or condition.",
     "example": "One consequence of the drought is higher food prices.",
-    "translation": "conseguenza"
+    "translation": "conseguenza",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "consistent",
+    "level": "Base",
+    "definition": "Always behaving or happening in the same way; compatible.",
+    "example": "She delivered consistent results during the entire project.",
+    "translation": "coerente",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "construct",
     "level": "Intermedio",
     "definition": "To build or form something by putting parts together.",
     "example": "Engineers will construct a new bridge over the river.",
-    "translation": "costruire"
+    "translation": "costruire",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "consume",
     "level": "Intermedio",
     "definition": "To use up or eat resources or goods.",
     "example": "Modern appliances consume less electricity than older models.",
-    "translation": "consumare"
+    "translation": "consumare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "context",
+    "level": "Base",
+    "definition": "The circumstances or background that form the setting for an event or idea.",
+    "example": "You need to understand the context before interpreting the remark.",
+    "translation": "contesto",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "create",
+    "level": "Base",
+    "definition": "To bring something into existence or cause something new to happen.",
+    "example": "The designers create prototypes to test their ideas quickly.",
+    "translation": "creare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "credit",
     "level": "Intermedio",
     "definition": "Praise or recognition for an achievement; also the ability to obtain goods before payment.",
     "example": "She received credit for improving the training program.",
-    "translation": "credito"
+    "translation": "credito",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "culture",
     "level": "Intermedio",
     "definition": "The customs, arts, and social institutions of a group of people.",
     "example": "Studying abroad helps students understand another culture.",
-    "translation": "cultura"
+    "translation": "cultura",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "data",
+    "level": "Base",
+    "definition": "Facts and statistics collected for reference or analysis.",
+    "example": "The lab stored all climate data in a shared repository.",
+    "translation": "dati",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "define",
+    "level": "Base",
+    "definition": "To explain the meaning of a word or idea precisely.",
+    "example": "The contract must define each technical term clearly.",
+    "translation": "definire",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "derive",
+    "level": "Base",
+    "definition": "To obtain or develop something from a particular source.",
+    "example": "Scientists derive new hypotheses from previous studies.",
+    "translation": "derivare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "design",
     "level": "Intermedio",
     "definition": "To plan the form or structure of something.",
     "example": "Architects design buildings that balance beauty and function.",
-    "translation": "progettare"
+    "translation": "progettare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "distinct",
     "level": "Intermedio",
     "definition": "Clearly separate and different from something else.",
     "example": "The study identifies three distinct patterns of behavior.",
-    "translation": "distinto"
+    "translation": "distinto",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "economy",
+    "level": "Base",
+    "definition": "The system of production, distribution, and consumption of goods and services.",
+    "example": "Tourism plays a vital role in the island's economy.",
+    "translation": "economia",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "element",
     "level": "Intermedio",
     "definition": "A basic or essential part of something.",
     "example": "Trust is a key element of effective teamwork.",
-    "translation": "elemento"
+    "translation": "elemento",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "environment",
+    "level": "Base",
+    "definition": "The surroundings or conditions in which a person, animal, or plant lives or operates.",
+    "example": "A calm environment helps children concentrate on homework.",
+    "translation": "ambiente",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "equate",
     "level": "Intermedio",
     "definition": "To consider one thing to be the same as another.",
     "example": "We should not equate wealth with happiness.",
-    "translation": "equiparare"
+    "translation": "equiparare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "establish",
+    "level": "Base",
+    "definition": "To set up or create something on a firm or lasting basis.",
+    "example": "The university plans to establish a new research center.",
+    "translation": "stabilire",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "evaluate",
     "level": "Intermedio",
     "definition": "To judge or determine the value or quality of something.",
     "example": "The committee will evaluate the grant proposals next week.",
-    "translation": "valutare"
+    "translation": "valutare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "evidence",
+    "level": "Base",
+    "definition": "Facts or information indicating whether something is true or valid.",
+    "example": "There is strong evidence that the program improves literacy.",
+    "translation": "prova",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "factor",
+    "level": "Base",
+    "definition": "Something that contributes to a result or outcome.",
+    "example": "Price is an important factor when consumers choose a product.",
+    "translation": "fattore",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "feature",
     "level": "Intermedio",
     "definition": "A distinctive attribute or aspect of something.",
     "example": "This smartphone's main feature is its high-resolution camera.",
-    "translation": "caratteristica"
+    "translation": "caratteristica",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "final",
     "level": "Intermedio",
     "definition": "Coming at the end; last.",
     "example": "The final report is due at the end of the month.",
-    "translation": "finale"
+    "translation": "finale",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "finance",
+    "level": "Base",
+    "definition": "The management of money, banking, investments, and other financial instruments.",
+    "example": "She studied finance to learn how markets allocate capital.",
+    "translation": "finanza",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "focus",
     "level": "Intermedio",
     "definition": "To concentrate attention or effort on something.",
     "example": "This semester we will focus on academic writing.",
-    "translation": "concentrarsi"
+    "translation": "concentrarsi",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "formula",
+    "level": "Base",
+    "definition": "A mathematical rule or chemical relationship expressed in symbols.",
+    "example": "The students memorized the formula for calculating area.",
+    "translation": "formula",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "function",
+    "level": "Base",
+    "definition": "The purpose or role that something is designed to perform.",
+    "example": "This button's function is to reset the device.",
+    "translation": "funzione",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "identify",
+    "level": "Base",
+    "definition": "To recognize or establish what something is.",
+    "example": "The software can identify errors in the dataset automatically.",
+    "translation": "identificare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "impact",
     "level": "Intermedio",
     "definition": "A strong effect or influence on something.",
     "example": "The new policy had a positive impact on employment.",
-    "translation": "impatto"
+    "translation": "impatto",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "income",
+    "level": "Base",
+    "definition": "Money received regularly for work or investments.",
+    "example": "Their household income increased after the promotion.",
+    "translation": "reddito",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "indicate",
+    "level": "Base",
+    "definition": "To point out, show, or suggest something.",
+    "example": "Survey results indicate growing support for the reform.",
+    "translation": "indicare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "injure",
     "level": "Intermedio",
     "definition": "To harm or damage a person or thing.",
     "example": "Falling debris could injure workers at the site.",
-    "translation": "ferire"
+    "translation": "ferire",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "institute",
     "level": "Avanzato",
     "definition": "To establish something, especially an organization or system.",
     "example": "The board voted to institute stricter safety measures.",
-    "translation": "istituire"
+    "translation": "istituire",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "interpret",
+    "level": "Base",
+    "definition": "To explain the meaning of information, words, or actions.",
+    "example": "Historians interpret the letters to understand daily life in the past.",
+    "translation": "interpretare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "invest",
     "level": "Avanzato",
     "definition": "To put money, time, or effort into something expecting a return.",
     "example": "The firm will invest in modernizing its factories.",
-    "translation": "investire"
+    "translation": "investire",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "involve",
+    "level": "Base",
+    "definition": "To include or require as a necessary part.",
+    "example": "The internship will involve both fieldwork and laboratory analysis.",
+    "translation": "coinvolgere",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "issue",
+    "level": "Base",
+    "definition": "An important topic or problem for debate or discussion.",
+    "example": "Climate change remains a central issue in the election campaign.",
+    "translation": "questione",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "journal",
     "level": "Avanzato",
     "definition": "A magazine or record that publishes academic or professional information.",
     "example": "She submitted her findings to a medical journal.",
-    "translation": "rivista"
+    "translation": "rivista",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "labor",
+    "level": "Base",
+    "definition": "Work, especially physical work, or the workers as a group.",
+    "example": "New regulations aim to protect labor in hazardous industries.",
+    "translation": "lavoro",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "legal",
+    "level": "Base",
+    "definition": "Related to the law or permitted by law.",
+    "example": "You must seek legal advice before signing the agreement.",
+    "translation": "legale",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "maintain",
     "level": "Avanzato",
     "definition": "To keep something in good condition or continue a state.",
     "example": "Technicians maintain the equipment every month.",
-    "translation": "mantenere"
+    "translation": "mantenere",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "major",
+    "level": "Base",
+    "definition": "Very large, important, or serious.",
+    "example": "The storm caused major damage to coastal towns.",
+    "translation": "principale",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "method",
+    "level": "Base",
+    "definition": "A particular way of doing something, especially a systematic one.",
+    "example": "The scientific method requires careful observation and testing.",
+    "translation": "metodo",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "normal",
     "level": "Avanzato",
     "definition": "Usual, typical, or expected.",
     "example": "After the repairs, production returned to normal levels.",
-    "translation": "normale"
+    "translation": "normale",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "obtain",
     "level": "Avanzato",
     "definition": "To get or acquire something.",
     "example": "Students must obtain a permit before using the laboratory.",
-    "translation": "ottenere"
+    "translation": "ottenere",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "occur",
+    "level": "Base",
+    "definition": "To happen or take place.",
+    "example": "Several minor errors occur when the system is overloaded.",
+    "translation": "accadere",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "participate",
     "level": "Avanzato",
     "definition": "To take part in an activity or event.",
     "example": "Thousands will participate in the city marathon.",
-    "translation": "partecipare"
+    "translation": "partecipare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "perceive",
     "level": "Avanzato",
     "definition": "To become aware of or understand something through the senses or mind.",
     "example": "Consumers perceive the brand as reliable.",
-    "translation": "percepire"
+    "translation": "percepire",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "percent",
+    "level": "Base",
+    "definition": "One part in every hundred; a proportion.",
+    "example": "Unemployment dropped by two percent last year.",
+    "translation": "percentuale",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "period",
+    "level": "Base",
+    "definition": "A length or portion of time.",
+    "example": "The course covers the medieval period in European history.",
+    "translation": "periodo",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "policy",
+    "level": "Base",
+    "definition": "A course or principle of action adopted by an organization or individual.",
+    "example": "The company introduced a policy to encourage remote work.",
+    "translation": "politica",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "positive",
     "level": "Avanzato",
     "definition": "Hopeful, constructive, or expressing approval.",
     "example": "She offered a positive response to the proposal.",
-    "translation": "positivo"
+    "translation": "positivo",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "potential",
     "level": "Avanzato",
     "definition": "Having the capacity to develop into something in the future.",
     "example": "The startup has enormous potential for growth.",
-    "translation": "potenziale"
+    "translation": "potenziale",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "previous",
     "level": "Avanzato",
     "definition": "Existing or happening before the present time.",
     "example": "Please include data from the previous year as well.",
-    "translation": "precedente"
+    "translation": "precedente",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "primary",
     "level": "Avanzato",
     "definition": "Most important; main.",
     "example": "Cost remains the primary concern for many buyers.",
-    "translation": "primario"
+    "translation": "primario",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "principle",
+    "level": "Base",
+    "definition": "A fundamental rule or belief that guides behavior or reasoning.",
+    "example": "Honesty is a principle that guides her decisions.",
+    "translation": "principio",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "proceed",
+    "level": "Base",
+    "definition": "To begin or continue a course of action.",
+    "example": "Once everyone agrees, we can proceed with the plan.",
+    "translation": "procedere",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "process",
+    "level": "Base",
+    "definition": "A series of actions taken to achieve a particular result.",
+    "example": "Quality control is built into every step of the process.",
+    "translation": "processo",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "purchase",
     "level": "Avanzato",
     "definition": "To buy something.",
     "example": "They decided to purchase new laboratory equipment.",
-    "translation": "acquistare"
+    "translation": "acquistare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "range",
     "level": "Avanzato",
     "definition": "The extent or scope of something between limits.",
     "example": "This model offers a wide range of customization options.",
-    "translation": "gamma"
+    "translation": "gamma",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "region",
     "level": "Avanzato",
     "definition": "A particular area or division of the world or a country.",
     "example": "The mountain region attracts tourists year-round.",
-    "translation": "regione"
+    "translation": "regione",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "regulate",
     "level": "Avanzato",
     "definition": "To control or direct according to rules or laws.",
     "example": "New policies will regulate emissions from factories.",
-    "translation": "regolare"
+    "translation": "regolare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "relevant",
     "level": "Avanzato",
     "definition": "Closely connected or applicable to the matter at hand.",
     "example": "Only submit documents that are relevant to the claim.",
-    "translation": "pertinente"
+    "translation": "pertinente",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
-    "word": "resource",
-    "level": "Avanzato",
-    "definition": "A supply of materials, money, or assets that can be used.",
-    "example": "Water is a precious resource in arid climates.",
-    "translation": "risorsa"
+    "word": "require",
+    "level": "Base",
+    "definition": "To need something or make something necessary.",
+    "example": "Most graduate programs require letters of recommendation.",
+    "translation": "richiedere",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "research",
+    "level": "Intermedio",
+    "definition": "Systematic investigation to discover or establish facts.",
+    "example": "They received a grant to conduct research on renewable energy.",
+    "translation": "ricerca",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "resident",
     "level": "Avanzato",
     "definition": "A person who lives in a particular place.",
     "example": "Every resident received a survey about public transport.",
-    "translation": "residente"
+    "translation": "residente",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "resource",
+    "level": "Avanzato",
+    "definition": "A supply of materials, money, or assets that can be used.",
+    "example": "Water is a precious resource in arid climates.",
+    "translation": "risorsa",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "respond",
+    "level": "Intermedio",
+    "definition": "To reply or react to something.",
+    "example": "The spokesperson will respond to questions after the briefing.",
+    "translation": "rispondere",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "role",
+    "level": "Intermedio",
+    "definition": "The part played by a person or thing in a particular situation.",
+    "example": "Parents play a crucial role in early language development.",
+    "translation": "ruolo",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "section",
+    "level": "Intermedio",
+    "definition": "A distinct part or subdivision of something.",
+    "example": "Please read the safety section before operating the machine.",
+    "translation": "sezione",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "sector",
+    "level": "Intermedio",
+    "definition": "A distinct part of an area of activity, especially economic.",
+    "example": "The technology sector grew rapidly this quarter.",
+    "translation": "settore",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
   },
   {
     "word": "security",
     "level": "Avanzato",
     "definition": "The state of being free from danger or threat.",
     "example": "Airport security has been tightened this summer.",
-    "translation": "sicurezza"
+    "translation": "sicurezza",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "significant",
+    "level": "Intermedio",
+    "definition": "Important or meaningful; having a noticeable effect.",
+    "example": "There was a significant improvement in test scores.",
+    "translation": "significativo",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "similar",
+    "level": "Intermedio",
+    "definition": "Having a resemblance or likeness.",
+    "example": "The twins have similar interests and hobbies.",
+    "translation": "simile",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "source",
+    "level": "Intermedio",
+    "definition": "The place or person from which something originates.",
+    "example": "The journalist checked every source before publishing the article.",
+    "translation": "fonte",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "structure",
+    "level": "Intermedio",
+    "definition": "The arrangement of parts in an organism, object, or system.",
+    "example": "The bridge's steel structure can withstand high winds.",
+    "translation": "struttura",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "theory",
+    "level": "Intermedio",
+    "definition": "A system of ideas intended to explain something.",
+    "example": "According to the theory, supply and demand reach equilibrium.",
+    "translation": "teoria",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "word": "vary",
+    "level": "Intermedio",
+    "definition": "To differ or change from one instance to another.",
+    "example": "Student needs vary depending on their background.",
+    "translation": "variare",
+    "deckId": "core",
+    "deckName": "Vocabolario Base",
+    "deckDescription": "Lessico accademico fondamentale per IELTS."
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "a minority of",
+    "level": "Intermedio",
+    "definition": "The smaller part.",
+    "example": "A minority of voters disagreed.",
+    "translation": "una minoranza di"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "a small fraction of",
+    "level": "Intermedio",
+    "definition": "A very small portion.",
+    "example": "A small fraction of people preferred buses.",
+    "translation": "una piccola frazione di"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "account for",
+    "level": "Intermedio",
+    "definition": "To make up or form part of.",
+    "example": "Women account for 60% of students.",
+    "translation": "rappresentare"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "approximately",
+    "level": "Intermedio",
+    "definition": "Approximately.",
+    "example": "Approximately 20% of adults smoke.",
+    "translation": "approssimativamente"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "around",
+    "level": "Intermedio",
+    "definition": "Roughly.",
+    "example": "Around one-third of the total.",
+    "translation": "intorno a"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "as opposed to",
+    "level": "Intermedio",
+    "definition": "In opposition to.",
+    "example": "As opposed to 2000, data show improvement.",
+    "translation": "contrariamente a"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "attain",
+    "level": "Intermedio",
+    "definition": "To reach a particular level.",
+    "example": "Unemployment attained its lowest point.",
+    "translation": "conseguire"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "average",
+    "level": "Intermedio",
+    "definition": "The usual amount.",
+    "example": "The average income was $30,000.",
+    "translation": "media"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "between X and Y",
+    "level": "Intermedio",
+    "definition": "Showing two limits.",
+    "example": "Between X and Y, the values doubled.",
+    "translation": "tra X e Y"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "bottom out",
+    "level": "Intermedio",
+    "definition": "To reach the lowest point.",
+    "example": "Inflation figures bottom out in 2010.",
+    "translation": "toccare il minimo"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "by contrast",
+    "level": "Intermedio",
+    "definition": "Showing contrast.",
+    "example": "By contrast, rural areas fell.",
+    "translation": "al contrario"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "climb",
+    "level": "Intermedio",
+    "definition": "To go up slowly.",
+    "example": "Profits climbed slightly.",
+    "translation": "arrampicarsi"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "compared to",
+    "level": "Intermedio",
+    "definition": "In comparison with.",
+    "example": "Compared to 2010, results improved.",
+    "translation": "rispetto a"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "decline (noun)",
+    "level": "Intermedio",
+    "definition": "A decrease in amount.",
+    "example": "A steady decline in rainfall occurred.",
+    "translation": "declino"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "decline (verb)",
+    "level": "Intermedio",
+    "definition": "To go down in amount or quality.",
+    "example": "Production declined in 2012.",
+    "translation": "declinare"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "decrease",
+    "level": "Intermedio",
+    "definition": "To become smaller in number or degree.",
+    "example": "Employment rates decreased slightly.",
+    "translation": "diminuire"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "decrease in",
+    "level": "Intermedio",
+    "definition": "A reduction in something.",
+    "example": "A decrease in pollution levels.",
+    "translation": "diminuzione di"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "different from",
+    "level": "Intermedio",
+    "definition": "Not the same as.",
+    "example": "This year’s numbers are different from 2020.",
+    "translation": "diverso da"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "double",
+    "level": "Intermedio",
+    "definition": "To become twice as large.",
+    "example": "Profits doubled in five years.",
+    "translation": "raddoppiare"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "dramatic",
+    "level": "Intermedio",
+    "definition": "Extremely noticeable or intense.",
+    "example": "There was a dramatic increase in costs.",
+    "translation": "drammatico"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "dramatically",
+    "level": "Intermedio",
+    "definition": "With a lot of intensity.",
+    "example": "Tourism grew dramatically in 2021.",
+    "translation": "drammaticamente"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "drop",
+    "level": "Intermedio",
+    "definition": "To fall or go down.",
+    "example": "Exports dropped in 2008.",
+    "translation": "cadere"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "equal to",
+    "level": "Intermedio",
+    "definition": "The same in value.",
+    "example": "The growth rate was equal to the previous year.",
+    "translation": "uguale a"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "exceed",
+    "level": "Intermedio",
+    "definition": "To go beyond a certain point.",
+    "example": "Profits exceeded expectations.",
+    "translation": "superare"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "fall",
+    "level": "Intermedio",
+    "definition": "To move downward.",
+    "example": "Prices fall sharply in March.",
+    "translation": "scendere"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "fall in",
+    "level": "Intermedio",
+    "definition": "A fall in quantity.",
+    "example": "A fall in interest rates.",
+    "translation": "caduta in"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "figure",
+    "level": "Intermedio",
+    "definition": "A number or value.",
+    "example": "The figure peaked in 2020.",
+    "translation": "valore"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "fluctuate",
+    "level": "Intermedio",
+    "definition": "To change frequently in level or amount.",
+    "example": "The temperature fluctuated between 20°C and 30°C.",
+    "translation": "fluttuare"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "from 2000 to 2010",
+    "level": "Intermedio",
+    "definition": "From year 2000 to 2010.",
+    "example": "From 2000 to 2010, sales doubled.",
+    "translation": "dal 2000 al 2010"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "from X to Y",
+    "level": "Intermedio",
+    "definition": "Showing range of values.",
+    "example": "From X to Y, sales climbed steadily.",
+    "translation": "da X a Y"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "gradual",
+    "level": "Intermedio",
+    "definition": "Happening slowly over time.",
+    "example": "Population growth was gradual.",
+    "translation": "graduale"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "gradually",
+    "level": "Intermedio",
+    "definition": "Slowly.",
+    "example": "The market grew gradually.",
+    "translation": "gradualmente"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "grow",
+    "level": "Intermedio",
+    "definition": "To grow in size or quantity.",
+    "example": "Populations grow by 5% each year.",
+    "translation": "crescere"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "growth",
+    "level": "Intermedio",
+    "definition": "Increase in size or number.",
+    "example": "There was strong growth in exports.",
+    "translation": "crescita"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "halve",
+    "level": "Intermedio",
+    "definition": "To reduce to half.",
+    "example": "Production halved after 2018.",
+    "translation": "dimezzare"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "higher than",
+    "level": "Intermedio",
+    "definition": "Above in value.",
+    "example": "Inflation was higher than expected.",
+    "translation": "più alto di"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "in comparison",
+    "level": "Intermedio",
+    "definition": "When comparing.",
+    "example": "In comparison, urban growth was faster.",
+    "translation": "in confronto"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "in contrast to",
+    "level": "Intermedio",
+    "definition": "In contrast with.",
+    "example": "In contrast to men, women earned more.",
+    "translation": "in contrasto con"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "increase",
+    "level": "Intermedio",
+    "definition": "To become larger in number, amount, or degree.",
+    "example": "The number of cars increased in 2020.",
+    "translation": "aumentare"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "increase in",
+    "level": "Intermedio",
+    "definition": "An increase in something.",
+    "example": "An increase in population.",
+    "translation": "aumento di"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "indicate",
+    "level": "Intermedio",
+    "definition": "To show or express.",
+    "example": "The data indicate a clear upward trend.",
+    "translation": "indicare"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "just under",
+    "level": "Intermedio",
+    "definition": "Just below.",
+    "example": "Just under 50% were women.",
+    "translation": "poco meno di"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "level off",
+    "level": "Intermedio",
+    "definition": "To become stable after a change.",
+    "example": "Profits level off after 2018.",
+    "translation": "stabilizzarsi"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "lower than",
+    "level": "Intermedio",
+    "definition": "Below in value.",
+    "example": "Interest rates were lower than 2%.",
+    "translation": "più basso di"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "marginal",
+    "level": "Intermedio",
+    "definition": "Small in effect or importance.",
+    "example": "Only a marginal change occurred.",
+    "translation": "marginale"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "marginally",
+    "level": "Intermedio",
+    "definition": "By a small degree.",
+    "example": "Costs dropped marginally.",
+    "translation": "marginalmente"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "moderate",
+    "level": "Intermedio",
+    "definition": "Average or medium in degree.",
+    "example": "A moderate rise was recorded.",
+    "translation": "moderato"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "moderately",
+    "level": "Intermedio",
+    "definition": "Moderately.",
+    "example": "Revenue increased moderately.",
+    "translation": "moderatamente"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "nearly",
+    "level": "Intermedio",
+    "definition": "Almost.",
+    "example": "Nearly half of respondents agreed.",
+    "translation": "quasi"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "over the period",
+    "level": "Intermedio",
+    "definition": "During a period.",
+    "example": "Over the period, data improved.",
+    "translation": "nel periodo"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "over time",
+    "level": "Intermedio",
+    "definition": "Over a time span.",
+    "example": "Prices rose over time.",
+    "translation": "nel tempo"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "peak",
+    "level": "Intermedio",
+    "definition": "To reach the highest point.",
+    "example": "Unemployment peaked in 2009.",
+    "translation": "raggiungere il picco"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "percentage",
+    "level": "Intermedio",
+    "definition": "Amount in percent.",
+    "example": "The percentage of smokers decreased.",
+    "translation": "percentuale"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "percentage point",
+    "level": "Intermedio",
+    "definition": "A one-point change in percentage.",
+    "example": "A five percentage point drop was seen.",
+    "translation": "punto percentuale"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "plummet",
+    "level": "Intermedio",
+    "definition": "To decrease very rapidly.",
+    "example": "The stock market plummeted overnight.",
+    "translation": "precipitare"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "proportion",
+    "level": "Intermedio",
+    "definition": "Part or share of something.",
+    "example": "The proportion of women was higher.",
+    "translation": "proporzione"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "proportion of total",
+    "level": "Intermedio",
+    "definition": "Part of a total expressed as percentage.",
+    "example": "The proportion of total exports rose.",
+    "translation": "proporzione del totale"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "rapid",
+    "level": "Intermedio",
+    "definition": "Happening quickly.",
+    "example": "The rate rose rapidly.",
+    "translation": "rapido"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "rapidly",
+    "level": "Intermedio",
+    "definition": "Fast.",
+    "example": "The population grew rapidly.",
+    "translation": "rapidamente"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "rate",
+    "level": "Intermedio",
+    "definition": "Frequency or speed.",
+    "example": "The birth rate increased.",
+    "translation": "tasso"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "rate of decline",
+    "level": "Intermedio",
+    "definition": "The speed of decline.",
+    "example": "The rate of decline slowed.",
+    "translation": "tasso di diminuzione"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "rate of increase",
+    "level": "Intermedio",
+    "definition": "The speed of growth.",
+    "example": "The rate of increase was high.",
+    "translation": "tasso di aumento"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "reach",
+    "level": "Intermedio",
+    "definition": "To arrive at a point or value.",
+    "example": "The rate reached 70%.",
+    "translation": "raggiungere"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "remain steady",
+    "level": "Intermedio",
+    "definition": "To stay at the same level.",
+    "example": "Rates remain steady for three years.",
+    "translation": "rimanere stabile"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "represent",
+    "level": "Intermedio",
+    "definition": "To stand for or symbolize.",
+    "example": "The chart represents total sales.",
+    "translation": "rappresentare"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "rise",
+    "level": "Intermedio",
+    "definition": "To move upward or increase.",
+    "example": "Sales rise steadily throughout the year.",
+    "translation": "salire"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "rise in",
+    "level": "Intermedio",
+    "definition": "A rise in quantity.",
+    "example": "A rise in income.",
+    "translation": "aumento in"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "rocket",
+    "level": "Intermedio",
+    "definition": "To increase very quickly.",
+    "example": "Tourism numbers rocketed during summer.",
+    "translation": "schizzare in alto"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "roughly",
+    "level": "Intermedio",
+    "definition": "About.",
+    "example": "Roughly 15% were unemployed.",
+    "translation": "circa"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "sharp",
+    "level": "Intermedio",
+    "definition": "Sudden and noticeable.",
+    "example": "There was a sharp decline in prices.",
+    "translation": "brusco"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "sharply",
+    "level": "Intermedio",
+    "definition": "Quickly and noticeably.",
+    "example": "Profits dropped sharply.",
+    "translation": "bruscamente"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "significant",
+    "level": "Intermedio",
+    "definition": "Large or important in effect.",
+    "example": "A significant difference was observed.",
+    "translation": "significativo"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "significantly",
+    "level": "Intermedio",
+    "definition": "To a large extent.",
+    "example": "Production rose significantly.",
+    "translation": "significativamente"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "similar to",
+    "level": "Intermedio",
+    "definition": "Resembling something.",
+    "example": "The pattern was similar to last year.",
+    "translation": "simile a"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "slight",
+    "level": "Intermedio",
+    "definition": "Small in degree.",
+    "example": "There was a slight increase in sales.",
+    "translation": "leggero"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "slightly",
+    "level": "Intermedio",
+    "definition": "A little.",
+    "example": "Sales rose slightly in June.",
+    "translation": "leggermente"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "slightly more than",
+    "level": "Intermedio",
+    "definition": "A bit more than.",
+    "example": "Slightly more than 30% were men.",
+    "translation": "leggermente più di"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "soar",
+    "level": "Intermedio",
+    "definition": "To rise suddenly and quickly.",
+    "example": "The demand for oil soared after 2005.",
+    "translation": "impennarsi"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "stability",
+    "level": "Intermedio",
+    "definition": "Being constant.",
+    "example": "The data show stability over time.",
+    "translation": "stabilità"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "stabilize",
+    "level": "Intermedio",
+    "definition": "To stay constant after change.",
+    "example": "Sales stabilized after 2019.",
+    "translation": "stabilizzarsi"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "steadily",
+    "level": "Intermedio",
+    "definition": "In a steady manner.",
+    "example": "Employment increased steadily.",
+    "translation": "costantemente"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "steady",
+    "level": "Intermedio",
+    "definition": "Not changing much.",
+    "example": "Profits showed steady growth.",
+    "translation": "costante"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "substantial",
+    "level": "Intermedio",
+    "definition": "Large in amount or importance.",
+    "example": "A substantial increase was seen.",
+    "translation": "sostanziale"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "substantially",
+    "level": "Intermedio",
+    "definition": "Considerably.",
+    "example": "Exports rose substantially.",
+    "translation": "sostanzialmente"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "the majority of",
+    "level": "Intermedio",
+    "definition": "The greater part.",
+    "example": "The majority of citizens supported the change.",
+    "translation": "la maggioranza di"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "the same as",
+    "level": "Intermedio",
+    "definition": "Equal in value.",
+    "example": "The figure was the same as before.",
+    "translation": "uguale a"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "throughout the decade",
+    "level": "Intermedio",
+    "definition": "During ten years.",
+    "example": "Throughout the decade, the rate rose.",
+    "translation": "nel decennio"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "trend",
+    "level": "Intermedio",
+    "definition": "A general direction of change.",
+    "example": "The trend shows steady growth.",
+    "translation": "tendenza"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "triple",
+    "level": "Intermedio",
+    "definition": "To become three times as large.",
+    "example": "Revenue tripled between 2005 and 2010.",
+    "translation": "triplicare"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "twice as high as",
+    "level": "Intermedio",
+    "definition": "Two times greater than.",
+    "example": "The value was twice as high as before.",
+    "translation": "due volte più alto di"
+  },
+  {
+    "deckId": "graphs",
+    "deckName": "Vocabolario Grafici",
+    "deckDescription": "Espressioni per descrivere grafici e trend in Task 1.",
+    "word": "variation",
+    "level": "Intermedio",
+    "definition": "Change or difference.",
+    "example": "There was variation in income levels.",
+    "translation": "variazione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "accommodation",
+    "level": "Intermedio",
+    "definition": "Housing provided for students.",
+    "example": "University accommodation is expensive.",
+    "translation": "alloggio"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "analysis",
+    "level": "Intermedio",
+    "definition": "The detailed examination of information.",
+    "example": "Statistical analysis was performed using software.",
+    "translation": "analisi"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "announcement",
+    "level": "Intermedio",
+    "definition": "A public or official message.",
+    "example": "The announcement was made during the lecture.",
+    "translation": "annuncio"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "answer",
+    "level": "Intermedio",
+    "definition": "A reply to a question.",
+    "example": "She answered all the questions clearly.",
+    "translation": "risposta"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "appointment",
+    "level": "Intermedio",
+    "definition": "A planned time to meet someone.",
+    "example": "I have an appointment with my academic advisor.",
+    "translation": "appuntamento"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "arrange",
+    "level": "Intermedio",
+    "definition": "To plan or organize something.",
+    "example": "We arranged a meeting with our tutor.",
+    "translation": "organizzare"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "assessment",
+    "level": "Intermedio",
+    "definition": "An evaluation of student performance.",
+    "example": "The final assessment will be next month.",
+    "translation": "valutazione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "assignment",
+    "level": "Intermedio",
+    "definition": "A task given to students as part of their course.",
+    "example": "The assignment is due next Monday.",
+    "translation": "compito"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "attend",
+    "level": "Intermedio",
+    "definition": "To be present at an event or class.",
+    "example": "All students must attend the first lecture.",
+    "translation": "frequentare"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "attendance",
+    "level": "Intermedio",
+    "definition": "The act of being present at a class.",
+    "example": "Attendance is mandatory for this course.",
+    "translation": "frequenza"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "audio",
+    "level": "Intermedio",
+    "definition": "A recording containing sound.",
+    "example": "The audio quality was excellent.",
+    "translation": "audio"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "bank account",
+    "level": "Intermedio",
+    "definition": "An arrangement with a bank to hold money.",
+    "example": "I opened a bank account near campus.",
+    "translation": "conto bancario"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "bibliography",
+    "level": "Intermedio",
+    "definition": "A list of sources used in academic work.",
+    "example": "Your bibliography should list all the books used.",
+    "translation": "bibliografia"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "budget",
+    "level": "Intermedio",
+    "definition": "A financial plan for spending money.",
+    "example": "Budget planning is part of the course.",
+    "translation": "budget"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "campus",
+    "level": "Intermedio",
+    "definition": "The grounds of a university or college.",
+    "example": "The university campus is large and green.",
+    "translation": "campus"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "cancel",
+    "level": "Intermedio",
+    "definition": "To call off or cancel an event.",
+    "example": "The conference was cancelled due to weather.",
+    "translation": "annullare"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "canteen",
+    "level": "Intermedio",
+    "definition": "A place where students eat.",
+    "example": "We had lunch in the canteen.",
+    "translation": "mensa"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "citation",
+    "level": "Intermedio",
+    "definition": "A formal acknowledgment of a source.",
+    "example": "Use proper citation style in your essay.",
+    "translation": "citazione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "clarify",
+    "level": "Intermedio",
+    "definition": "To make something clearer.",
+    "example": "Could you clarify this point, please?",
+    "translation": "chiarire"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "collaboration",
+    "level": "Intermedio",
+    "definition": "The process of working together to achieve goals.",
+    "example": "Collaboration leads to better results.",
+    "translation": "collaborazione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "communication",
+    "level": "Intermedio",
+    "definition": "The exchange of ideas or information.",
+    "example": "Good communication prevents misunderstandings.",
+    "translation": "comunicazione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "confirm",
+    "level": "Intermedio",
+    "definition": "To verify or agree on details.",
+    "example": "Please confirm your attendance by email.",
+    "translation": "confermare"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "cost",
+    "level": "Intermedio",
+    "definition": "The amount of money needed for something.",
+    "example": "The total cost was higher than expected.",
+    "translation": "costo"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "course",
+    "level": "Intermedio",
+    "definition": "A series of lessons on a subject.",
+    "example": "I’m taking a course in economics.",
+    "translation": "corso"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "credit",
+    "level": "Intermedio",
+    "definition": "A unit of academic credit.",
+    "example": "You need 60 credits to pass the year.",
+    "translation": "credito"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "data collection",
+    "level": "Intermedio",
+    "definition": "The act of gathering research data.",
+    "example": "Data collection took three weeks.",
+    "translation": "raccolta dati"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "deadline",
+    "level": "Intermedio",
+    "definition": "The last date by which something must be completed.",
+    "example": "The deadline for the report is next Monday.",
+    "translation": "scadenza"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "debate",
+    "level": "Intermedio",
+    "definition": "A formal discussion of opposing viewpoints.",
+    "example": "Students debated the pros and cons of online education.",
+    "translation": "dibattito"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "degree",
+    "level": "Intermedio",
+    "definition": "A qualification awarded by a university.",
+    "example": "He earned his degree in 2023.",
+    "translation": "laurea"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "department",
+    "level": "Intermedio",
+    "definition": "A division of a university.",
+    "example": "The department of linguistics offers many courses.",
+    "translation": "dipartimento"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "device",
+    "level": "Intermedio",
+    "definition": "A machine or tool used for a particular purpose.",
+    "example": "This device measures temperature accurately.",
+    "translation": "dispositivo"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "diploma",
+    "level": "Intermedio",
+    "definition": "A certificate awarded after study.",
+    "example": "She completed a diploma in design.",
+    "translation": "diploma"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "discussion",
+    "level": "Intermedio",
+    "definition": "A conversation about a subject between people.",
+    "example": "The discussion focused on global warming.",
+    "translation": "discussione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "draft",
+    "level": "Intermedio",
+    "definition": "A first version of a written work.",
+    "example": "I submitted the first draft of my essay.",
+    "translation": "bozza"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "email",
+    "level": "Intermedio",
+    "definition": "A digital message sent electronically.",
+    "example": "I received an email from the professor.",
+    "translation": "email"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "enrol",
+    "level": "Intermedio",
+    "definition": "To officially join a course or program.",
+    "example": "You must enrol before classes start.",
+    "translation": "iscriversi"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "equipment",
+    "level": "Intermedio",
+    "definition": "Tools or machinery needed for a task.",
+    "example": "The lab equipment must be handled carefully.",
+    "translation": "attrezzatura"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "experiment",
+    "level": "Intermedio",
+    "definition": "A scientific test to study something.",
+    "example": "The experiment tested new materials.",
+    "translation": "esperimento"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "explain",
+    "level": "Intermedio",
+    "definition": "To make an idea or situation clear.",
+    "example": "He explained the concept very clearly.",
+    "translation": "spiegare"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "extension",
+    "level": "Intermedio",
+    "definition": "Additional time allowed to complete work.",
+    "example": "She asked for an extension to finish her paper.",
+    "translation": "proroga"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "faculty",
+    "level": "Intermedio",
+    "definition": "A group of related academic departments.",
+    "example": "She studies in the Faculty of Science.",
+    "translation": "facoltà"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "fee",
+    "level": "Intermedio",
+    "definition": "Money charged for instruction or services.",
+    "example": "Tuition fees increase every year.",
+    "translation": "tassa"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "feedback",
+    "level": "Intermedio",
+    "definition": "Comments given to help improvement.",
+    "example": "The teacher gave useful feedback.",
+    "translation": "feedback"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "field trip",
+    "level": "Intermedio",
+    "definition": "An organized educational trip.",
+    "example": "The field trip included several research activities.",
+    "translation": "gita di studio"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "finding",
+    "level": "Intermedio",
+    "definition": "Information discovered through study.",
+    "example": "The findings were published in a journal.",
+    "translation": "scoperta"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "funding",
+    "level": "Intermedio",
+    "definition": "Money provided for a purpose.",
+    "example": "The project received funding from the government.",
+    "translation": "finanziamento"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "grade",
+    "level": "Intermedio",
+    "definition": "A mark given for academic work.",
+    "example": "She received a high grade for her report.",
+    "translation": "voto"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "grant",
+    "level": "Intermedio",
+    "definition": "A sum of money given for a project or study.",
+    "example": "The team received a research grant.",
+    "translation": "sovvenzione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "group work",
+    "level": "Intermedio",
+    "definition": "Work done with others in a small group.",
+    "example": "Group work develops communication skills.",
+    "translation": "lavoro di gruppo"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "hall of residence",
+    "level": "Intermedio",
+    "definition": "A building where students live.",
+    "example": "He lives in the hall of residence.",
+    "translation": "residenza studentesca"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "handout",
+    "level": "Intermedio",
+    "definition": "Printed material given to students.",
+    "example": "Please read the handout before class.",
+    "translation": "dispensa"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "internship",
+    "level": "Intermedio",
+    "definition": "Practical experience in a workplace.",
+    "example": "She completed an internship at a law firm.",
+    "translation": "tirocinio"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "laboratory",
+    "level": "Intermedio",
+    "definition": "A room or building for scientific research.",
+    "example": "Experiments are conducted in the laboratory.",
+    "translation": "laboratorio"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "lecture",
+    "level": "Intermedio",
+    "definition": "A talk given by a university teacher.",
+    "example": "The lecture covered recent developments in biology.",
+    "translation": "lezione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "lecturer",
+    "level": "Intermedio",
+    "definition": "A person who gives lectures.",
+    "example": "The lecturer introduced new research topics.",
+    "translation": "docente"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "library",
+    "level": "Intermedio",
+    "definition": "A building containing books for study.",
+    "example": "The library is open until 10 p.m.",
+    "translation": "biblioteca"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "loan",
+    "level": "Intermedio",
+    "definition": "Money borrowed to pay for education.",
+    "example": "He took a student loan to pay tuition.",
+    "translation": "prestito"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "meeting",
+    "level": "Intermedio",
+    "definition": "An organized discussion.",
+    "example": "The meeting will be held in Room 203.",
+    "translation": "riunione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "message",
+    "level": "Intermedio",
+    "definition": "A short written communication.",
+    "example": "He left a short message on Teams.",
+    "translation": "messaggio"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "microphone",
+    "level": "Intermedio",
+    "definition": "A device that amplifies voice.",
+    "example": "Use a microphone for large lectures.",
+    "translation": "microfono"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "module",
+    "level": "Intermedio",
+    "definition": "A separate unit of study within a course.",
+    "example": "Each module includes an exam.",
+    "translation": "modulo"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "note-taking",
+    "level": "Intermedio",
+    "definition": "The practice of writing down key information during a lecture.",
+    "example": "Good note-taking helps during exams.",
+    "translation": "prendere appunti"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "noticeboard",
+    "level": "Intermedio",
+    "definition": "A board displaying information.",
+    "example": "Check the noticeboard for updates.",
+    "translation": "bacheca"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "orientation",
+    "level": "Intermedio",
+    "definition": "An introduction to a university or course.",
+    "example": "Orientation helps new students adjust.",
+    "translation": "orientamento"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "participation",
+    "level": "Intermedio",
+    "definition": "Involvement in a class or activity.",
+    "example": "Active participation improves learning.",
+    "translation": "partecipazione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "payment",
+    "level": "Intermedio",
+    "definition": "The act of giving money for goods or services.",
+    "example": "Payment is due by the end of the month.",
+    "translation": "pagamento"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "placement",
+    "level": "Intermedio",
+    "definition": "A period of work experience.",
+    "example": "The placement was in a local hospital.",
+    "translation": "stage"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "plagiarism",
+    "level": "Intermedio",
+    "definition": "Using someone else's work without permission.",
+    "example": "Plagiarism is a serious academic offense.",
+    "translation": "plagio"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "postgraduate",
+    "level": "Intermedio",
+    "definition": "A student who has completed a first degree.",
+    "example": "He is doing postgraduate research.",
+    "translation": "studente post-laurea"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "presentation",
+    "level": "Intermedio",
+    "definition": "A talk or speech to explain a topic.",
+    "example": "Her presentation was about climate change.",
+    "translation": "presentazione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "professor",
+    "level": "Intermedio",
+    "definition": "A senior academic who teaches at university.",
+    "example": "The professor gave an inspiring lecture.",
+    "translation": "professore"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "project",
+    "level": "Intermedio",
+    "definition": "A piece of planned work or research.",
+    "example": "We’re working on a group project this term.",
+    "translation": "progetto"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "question",
+    "level": "Intermedio",
+    "definition": "Something said to get information.",
+    "example": "Students asked many questions.",
+    "translation": "domanda"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "questionnaire",
+    "level": "Intermedio",
+    "definition": "A set of written questions used to collect information.",
+    "example": "Participants completed a questionnaire after the session.",
+    "translation": "questionario"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "quotation",
+    "level": "Intermedio",
+    "definition": "A group of words taken from a text or speech.",
+    "example": "He included a short quotation from the author.",
+    "translation": "citazione testuale"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "recording",
+    "level": "Intermedio",
+    "definition": "A sound recording of speech or lecture.",
+    "example": "The lecture recording is available online.",
+    "translation": "registrazione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "reference",
+    "level": "Intermedio",
+    "definition": "A mention of a source of information.",
+    "example": "Always include a reference for direct quotes.",
+    "translation": "riferimento"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "refund",
+    "level": "Intermedio",
+    "definition": "Money returned after overpayment.",
+    "example": "They requested a refund for the cancelled trip.",
+    "translation": "rimborso"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "register",
+    "level": "Intermedio",
+    "definition": "To put your name on an official list.",
+    "example": "Register for your modules online.",
+    "translation": "registrarsi"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "report",
+    "level": "Intermedio",
+    "definition": "A written document describing results.",
+    "example": "The final report summarized all data.",
+    "translation": "relazione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "reschedule",
+    "level": "Intermedio",
+    "definition": "To change the date or time of something.",
+    "example": "We rescheduled the meeting for next week.",
+    "translation": "rinviare"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "research",
+    "level": "Intermedio",
+    "definition": "The systematic investigation into a subject.",
+    "example": "Their research focuses on renewable energy.",
+    "translation": "ricerca"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "result",
+    "level": "Intermedio",
+    "definition": "A consequence or outcome of research.",
+    "example": "The results showed clear trends.",
+    "translation": "risultato"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "revision",
+    "level": "Intermedio",
+    "definition": "The process of improving written work.",
+    "example": "Essay revision takes time and focus.",
+    "translation": "revisione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "schedule",
+    "level": "Intermedio",
+    "definition": "A list of planned times for activities.",
+    "example": "My schedule is full this week.",
+    "translation": "programma"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "scholarship",
+    "level": "Intermedio",
+    "definition": "Financial aid for students.",
+    "example": "She won a scholarship for her academic performance.",
+    "translation": "borsa di studio"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "seminar",
+    "level": "Intermedio",
+    "definition": "A small class for discussion.",
+    "example": "We discussed the topic in our weekly seminar.",
+    "translation": "seminario"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "speaker",
+    "level": "Intermedio",
+    "definition": "A person who delivers a talk or speech.",
+    "example": "The speaker explained the concept well.",
+    "translation": "oratore"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "student union",
+    "level": "Intermedio",
+    "definition": "An organization representing students.",
+    "example": "The student union organized a charity event.",
+    "translation": "associazione studentesca"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "submission",
+    "level": "Intermedio",
+    "definition": "The act of handing in work.",
+    "example": "All submissions must be uploaded by Friday.",
+    "translation": "consegna"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "submit",
+    "level": "Intermedio",
+    "definition": "To hand in an assignment.",
+    "example": "Please submit your essay by Friday.",
+    "translation": "consegnare"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "supervisor",
+    "level": "Intermedio",
+    "definition": "A teacher overseeing student work.",
+    "example": "My supervisor reviewed my research proposal.",
+    "translation": "supervisore"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "survey",
+    "level": "Intermedio",
+    "definition": "A study to gather opinions or data.",
+    "example": "The survey results showed high satisfaction levels.",
+    "translation": "sondaggio"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "teamwork",
+    "level": "Intermedio",
+    "definition": "The act of working together as a team.",
+    "example": "Teamwork is essential in research projects.",
+    "translation": "lavoro di squadra"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "timetable",
+    "level": "Intermedio",
+    "definition": "A plan that shows when classes or events happen.",
+    "example": "The new timetable includes extra lab sessions.",
+    "translation": "orario"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "training",
+    "level": "Intermedio",
+    "definition": "A program designed to teach skills.",
+    "example": "The training focused on presentation skills.",
+    "translation": "formazione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "transcript",
+    "level": "Intermedio",
+    "definition": "A written record of spoken words.",
+    "example": "The transcript of the lecture is available online.",
+    "translation": "trascrizione"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "tutor",
+    "level": "Intermedio",
+    "definition": "A teacher who gives academic advice.",
+    "example": "My tutor advised me on my dissertation.",
+    "translation": "tutor"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "tutorial",
+    "level": "Intermedio",
+    "definition": "A meeting for teaching one student or a small group.",
+    "example": "The tutorial helped me understand the concept.",
+    "translation": "tutoraggio"
+  },
+  {
+    "deckId": "listening-academic",
+    "deckName": "Listening Academic",
+    "deckDescription": "Contesti e situazioni tipiche per la Listening accademica.",
+    "word": "undergraduate",
+    "level": "Intermedio",
+    "definition": "A student studying for their first degree.",
+    "example": "I’m an undergraduate student.",
+    "translation": "studente universitario"
   }
 ]

@@ -2,16 +2,87 @@ import Foundation
 import UIKit
 
 struct Flashcard: Identifiable, Codable, Hashable {
+    static let defaultDeckId = "core"
+    static let defaultDeckName = "Vocabolario Base"
+
+    let deckId: String
+    let deckName: String
+    let deckDescription: String
     let word: String
     let level: String
     let definition: String
     let example: String
     let translation: String
 
-    var id: String { word.trimmingCharacters(in: .whitespacesAndNewlines).lowercased() }
+    var id: String {
+        let normalizedDeck = deckId.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
+        let normalizedWord = legacyIdentifier
+        return "\(normalizedDeck)::\(normalizedWord)"
+    }
 
     var normalizedLevel: String {
         level.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+
+    var legacyIdentifier: String {
+        word.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
+    }
+
+    init(
+        deckId: String = Flashcard.defaultDeckId,
+        deckName: String = Flashcard.defaultDeckName,
+        deckDescription: String = "",
+        word: String,
+        level: String,
+        definition: String,
+        example: String,
+        translation: String
+    ) {
+        self.deckId = deckId.isEmpty ? Flashcard.defaultDeckId : deckId
+        self.deckName = deckName.isEmpty ? Flashcard.defaultDeckName : deckName
+        self.deckDescription = deckDescription
+        self.word = word
+        self.level = level
+        self.definition = definition
+        self.example = example
+        self.translation = translation
+    }
+
+    private enum CodingKeys: String, CodingKey {
+        case deckId
+        case deckName
+        case deckDescription
+        case word
+        case level
+        case definition
+        case example
+        case translation
+    }
+
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        let decodedDeckId = try container.decodeIfPresent(String.self, forKey: .deckId)?.trimmingCharacters(in: .whitespacesAndNewlines)
+        let decodedDeckName = try container.decodeIfPresent(String.self, forKey: .deckName)?.trimmingCharacters(in: .whitespacesAndNewlines)
+        deckDescription = try container.decodeIfPresent(String.self, forKey: .deckDescription) ?? ""
+        deckId = decodedDeckId?.isEmpty == false ? decodedDeckId! : Flashcard.defaultDeckId
+        deckName = decodedDeckName?.isEmpty == false ? decodedDeckName! : Flashcard.defaultDeckName
+        word = try container.decode(String.self, forKey: .word)
+        level = try container.decode(String.self, forKey: .level)
+        definition = try container.decode(String.self, forKey: .definition)
+        example = try container.decode(String.self, forKey: .example)
+        translation = try container.decode(String.self, forKey: .translation)
+    }
+
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(deckId, forKey: .deckId)
+        try container.encode(deckName, forKey: .deckName)
+        try container.encode(deckDescription, forKey: .deckDescription)
+        try container.encode(word, forKey: .word)
+        try container.encode(level, forKey: .level)
+        try container.encode(definition, forKey: .definition)
+        try container.encode(example, forKey: .example)
+        try container.encode(translation, forKey: .translation)
     }
 }
 

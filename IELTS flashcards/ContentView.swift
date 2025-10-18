@@ -85,6 +85,47 @@ struct ContentView: View {
 
     private var optionsMenu: some View {
         Menu {
+            Section("Mazzo") {
+                Button {
+                    withAnimation {
+                        viewModel.setDeck(id: nil)
+                    }
+                } label: {
+                    HStack(spacing: 8) {
+                        Text(StudySessionViewModel.allDecksLabel)
+                        if viewModel.selectedDeckId == nil {
+                            Image(systemName: "checkmark")
+                                .foregroundStyle(AppColors.primary)
+                        }
+                    }
+                }
+
+                ForEach(viewModel.availableDecks) { deck in
+                    Button {
+                        withAnimation {
+                            viewModel.setDeck(id: deck.id)
+                        }
+                    } label: {
+                        VStack(alignment: .leading, spacing: 2) {
+                            HStack(spacing: 8) {
+                                Text(deck.name)
+                                if viewModel.selectedDeckId == deck.id {
+                                    Image(systemName: "checkmark")
+                                        .foregroundStyle(AppColors.primary)
+                                }
+                            }
+                            if !deck.description.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                                Text(deck.description)
+                                    .font(.caption)
+                                    .foregroundStyle(.secondary)
+                            }
+                        }
+                    }
+                }
+            }
+
+            Divider()
+
             Section("Livello") {
                 ForEach(Array(viewModel.availableLevels.enumerated()), id: \.offset) { _, level in
                     Button {
@@ -153,6 +194,7 @@ struct ContentView: View {
                     currentPosition: viewModel.currentPosition,
                     totalCount: viewModel.totalCount,
                     dueCount: viewModel.dueCount,
+                    deckName: viewModel.selectedDeckTitle,
                     levelName: viewModel.selectedLevelTitle
                 )
 
@@ -393,9 +435,18 @@ final class StudySessionViewModel: ObservableObject {
         case completed
     }
     static let allLevelsLabel = "Tutti i livelli"
+    static let allDecksLabel = "Tutti i mazzi"
+
+    struct DeckFilter: Identifiable, Equatable {
+        let id: String
+        let name: String
+        let description: String
+    }
 
     @Published private(set) var isLoading = false
     @Published private(set) var errorMessage: String?
+    @Published private(set) var availableDecks: [DeckFilter] = []
+    @Published private(set) var selectedDeckId: String?
     @Published private(set) var availableLevels: [String] = []
     @Published private(set) var selectedLevel: String
     @Published private(set) var orderedCards: [Flashcard] = []
@@ -473,6 +524,12 @@ final class StudySessionViewModel: ObservableObject {
         refreshQueue()
     }
 
+    func setDeck(id: String?) {
+        guard selectedDeckId != id else { return }
+        selectedDeckId = id
+        refreshQueue()
+    }
+
     func toggleCard() {
         guard currentCard != nil else { return }
         showBack.toggle()
@@ -527,10 +584,32 @@ final class StudySessionViewModel: ObservableObject {
         selectedLevel
     }
 
+    var selectedDeckTitle: String {
+        guard let deckId = selectedDeckId,
+              let deck = availableDecks.first(where: { $0.id == deckId }) else {
+            return Self.allDecksLabel
+        }
+        return deck.name
+    }
+
     private func configure(with cards: [Flashcard], initialProgress: [String: FlashcardProgress]) {
         allCards = cards
-        let normalizedLevels = Set(cards.map { $0.normalizedLevel })
-        availableLevels = [Self.allLevelsLabel] + normalizedLevels.sorted { $0.localizedCompare($1) == .orderedAscending }
+
+        let groupedDecks = Dictionary(grouping: cards, by: { $0.deckId })
+        availableDecks = groupedDecks.map { key, values in
+            let representative = values.first
+            return DeckFilter(
+                id: key,
+                name: representative?.deckName ?? key.capitalized,
+                description: representative?.deckDescription ?? ""
+            )
+        }
+        .sorted(by: deckSortComparator)
+
+        if let selectedDeckId,
+           !availableDecks.contains(where: { $0.id == selectedDeckId }) {
+            self.selectedDeckId = nil
+        }
 
         let knownIds = Set(cards.map(\.id))
         progressById = initialProgress.reduce(into: [:]) { partialResult, element in
@@ -539,11 +618,41 @@ final class StudySessionViewModel: ObservableObject {
             }
         }
 
-        if !availableLevels.contains(selectedLevel) {
-            selectedLevel = Self.allLevelsLabel
+        for card in cards {
+            guard progressById[card.id] == nil else { continue }
+            if let legacy = initialProgress[card.legacyIdentifier] {
+                progressById[card.id] = legacy
+            }
         }
 
         refreshQueue()
+    }
+
+    private func updateAvailableLevels(using cards: [Flashcard]) {
+        let normalizedLevels = Set(cards.map { $0.normalizedLevel })
+        availableLevels = [Self.allLevelsLabel] + normalizedLevels.sorted { $0.localizedCompare($1) == .orderedAscending }
+
+        if !availableLevels.contains(selectedLevel) {
+            selectedLevel = Self.allLevelsLabel
+        }
+    }
+
+    private func deckPriority(for deckId: String) -> Int {
+        switch deckId {
+        case Flashcard.defaultDeckId:
+            return 0
+        default:
+            return 1
+        }
+    }
+
+    private func deckSortComparator(lhs: DeckFilter, rhs: DeckFilter) -> Bool {
+        let leftPriority = deckPriority(for: lhs.id)
+        let rightPriority = deckPriority(for: rhs.id)
+        if leftPriority != rightPriority {
+            return leftPriority < rightPriority
+        }
+        return lhs.name.localizedCompare(rhs.name) == .orderedAscending
     }
 
     private func refreshQueue(now: Date = Date()) {
@@ -553,11 +662,20 @@ final class StudySessionViewModel: ObservableObject {
             return
         }
 
+        let deckFilteredCards: [Flashcard]
+        if let selectedDeckId {
+            deckFilteredCards = allCards.filter { $0.deckId == selectedDeckId }
+        } else {
+            deckFilteredCards = allCards
+        }
+
+        updateAvailableLevels(using: deckFilteredCards)
+
         let filteredCards: [Flashcard]
         if selectedLevel == Self.allLevelsLabel {
-            filteredCards = allCards
+            filteredCards = deckFilteredCards
         } else {
-            filteredCards = allCards.filter { $0.normalizedLevel.caseInsensitiveCompare(selectedLevel) == .orderedSame }
+            filteredCards = deckFilteredCards.filter { $0.normalizedLevel.caseInsensitiveCompare(selectedLevel) == .orderedSame }
         }
 
         orderedCards = scheduler.reorder(cards: filteredCards, with: progressById)
@@ -575,21 +693,17 @@ private struct StudyHeaderView: View {
     let currentPosition: Int
     let totalCount: Int
     let dueCount: Int
+    let deckName: String
     let levelName: String
 
     var body: some View {
-        VStack(spacing: 8) {
-            HStack {
-                Text(levelName)
-                    .font(.headline)
-                    .foregroundStyle(.white)
-                    .padding(.horizontal, 12)
-                    .padding(.vertical, 6)
-                    .background(AppColors.secondary)
-                    .clipShape(Capsule())
-
+        VStack(spacing: 10) {
+            HStack(alignment: .center) {
+                Text(deckName)
+                    .font(.headline.weight(.semibold))
+                    .foregroundStyle(AppColors.secondary)
+                    .lineLimit(1)
                 Spacer()
-
                 if totalCount > 0 {
                     Text("Carta \(currentPosition) di \(totalCount)")
                         .font(.caption)
@@ -597,12 +711,21 @@ private struct StudyHeaderView: View {
                 }
             }
 
-            HStack {
+            HStack(spacing: 12) {
+                Text(levelName)
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(.white)
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, 5)
+                    .background(AppColors.secondary)
+                    .clipShape(Capsule())
+
+                Spacer()
+
                 Label("\(dueCount) da ripassare", systemImage: "clock.arrow.circlepath")
                     .font(.caption)
-                    .foregroundStyle(AppColors.primary.opacity(0.8))
+                    .foregroundStyle(AppColors.primary.opacity(0.85))
                     .fontWeight(.medium)
-                Spacer()
             }
         }
     }

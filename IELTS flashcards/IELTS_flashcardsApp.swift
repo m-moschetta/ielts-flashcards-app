@@ -14,6 +14,9 @@ struct IELTS_flashcardsApp: App {
             ContentView(viewModel: StudySessionViewModel())
                 .accentColor(AppColors.secondary)
                 .tint(AppColors.secondary)
+                .task {
+                    await NotificationManager.shared.ensureDailyReviewReminder()
+                }
         }
     }
 }

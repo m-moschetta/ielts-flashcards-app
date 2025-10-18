@@ -14,6 +14,7 @@ from __future__ import annotations
 import json
 import sys
 from pathlib import Path
+import re
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "Data" / "vocabulary.json"
@@ -31,9 +32,35 @@ def load_entries(path: Path) -> list[dict[str, str]]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def example_contains_target(word: str, example: str) -> bool:
+    normalized_example = example.lower()
+    candidates = {word.lower()}
+
+    stripped_parenthetical = re.sub(r"\s*\(.*?\)", "", word).strip().lower()
+    if stripped_parenthetical:
+        candidates.add(stripped_parenthetical)
+
+    condensed = re.sub(r"\s+", " ", stripped_parenthetical).strip()
+    if condensed:
+        candidates.add(condensed)
+
+    for candidate in candidates:
+        if candidate and candidate in normalized_example:
+            return True
+    return False
+
+
 def validate_entry(entry: dict[str, str]) -> list[str]:
     errors: list[str] = []
-    required_fields = ("word", "level", "definition", "example", "translation")
+    required_fields = (
+        "deckId",
+        "deckName",
+        "word",
+        "level",
+        "definition",
+        "example",
+        "translation",
+    )
 
     for field in required_fields:
         value = entry.get(field, "")
@@ -42,10 +69,8 @@ def validate_entry(entry: dict[str, str]) -> list[str]:
 
     word = entry.get("word", "").strip()
     example = entry.get("example", "")
-    if word and word.lower() not in example.lower():
-        errors.append(
-            "Example sentence does not contain the target word."
-        )
+    if word and not example_contains_target(word, example):
+        errors.append("Example sentence does not contain the target word.")
 
     return errors
 
@@ -55,13 +80,34 @@ def main() -> int:
 
     errors: list[str] = []
     seen_words: set[str] = set()
+    deck_metadata: dict[str, tuple[str, str]] = {}
 
     for index, entry in enumerate(entries, start=1):
         word = entry.get("word", "").strip()
-        if word.lower() in seen_words:
-            errors.append(f"Duplicate entry for word '{word}' at position {index}.")
+        deck_id = entry.get("deckId", "").strip().lower() or "core"
+        deck_name = entry.get("deckName", "").strip()
+        deck_description = entry.get("deckDescription", "")
+
+        normalized_key = f"{deck_id}::{word.lower()}"
+        if normalized_key in seen_words:
+            errors.append(
+                f"Duplicate entry for word '{word}' in deck '{deck_name}' at position {index}."
+            )
         else:
-            seen_words.add(word.lower())
+            seen_words.add(normalized_key)
+
+        if deck_id in deck_metadata:
+            stored_name, stored_description = deck_metadata[deck_id]
+            if stored_name != deck_name:
+                errors.append(
+                    f"Inconsistent deckName for deckId '{deck_id}' at position {index}."
+                )
+            if stored_description != deck_description:
+                errors.append(
+                    f"Inconsistent deckDescription for deckId '{deck_id}' at position {index}."
+                )
+        else:
+            deck_metadata[deck_id] = (deck_name, deck_description)
 
         for problem in validate_entry(entry):
             errors.append(f"{word or f'# {index}'}: {problem}")

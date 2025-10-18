@@ -46,6 +46,8 @@ struct IELTS_flashcardsTests {
                 translation: "analizzare"
             ),
             Flashcard(
+                deckId: "graphs",
+                deckName: "Vocabolario Grafici",
                 word: "debate",
                 level: "Avanzato",
                 definition: "A formal discussion on a particular matter.",
@@ -63,9 +65,25 @@ struct IELTS_flashcardsTests {
             initialProgress: [:]
         )
 
+        #expect(viewModel.availableDecks.count == 2)
+        #expect(viewModel.selectedDeckId == nil)
+        #expect(viewModel.selectedDeckTitle == StudySessionViewModel.allDecksLabel)
         #expect(viewModel.totalCount == 2)
         #expect(viewModel.currentCard?.word == "analyze")
         #expect(viewModel.dueCount == 2)
+
+        if let graphsDeck = viewModel.availableDecks.first(where: { $0.id == "graphs" }) {
+            viewModel.setDeck(id: graphsDeck.id)
+            #expect(viewModel.selectedDeckTitle == graphsDeck.name)
+            #expect(viewModel.totalCount == 1)
+            #expect(viewModel.currentCard?.word == "debate")
+        } else {
+            Issue.record("Missing graphs deck in availableDecks.")
+        }
+
+        viewModel.setDeck(id: nil)
+        #expect(viewModel.totalCount == 2)
+        #expect(viewModel.selectedDeckTitle == StudySessionViewModel.allDecksLabel)
 
         viewModel.setLevel("Avanzato")
         #expect(viewModel.totalCount == 1)
@@ -105,20 +123,31 @@ struct IELTS_flashcardsTests {
 
         #expect(!cards.isEmpty, "Vocabulary dataset must contain entries.")
 
-        var seenWords = Set<String>()
+        var seenCards = Set<String>()
+        var decks: [String: String] = [:]
 
         for card in cards {
             let trimmedWord = card.word.trimmingCharacters(in: .whitespacesAndNewlines)
             let normalizedWord = trimmedWord.lowercased()
+            let deckKey = card.deckId.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
+            let compositeKey = "\(deckKey)::\(normalizedWord)"
 
             #expect(!trimmedWord.isEmpty, "Word must not be empty.")
             #expect(!card.level.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty, "Level must not be empty.")
             #expect(!card.definition.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty, "Definition must not be empty.")
             #expect(!card.example.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty, "Example must not be empty.")
             #expect(!card.translation.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty, "Translation must not be empty.")
-            #expect(!seenWords.contains(normalizedWord), "Duplicate entry found for '\(card.word)'.")
+            #expect(!card.deckId.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty, "Deck ID must not be empty.")
+            #expect(!card.deckName.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty, "Deck name must not be empty.")
+            #expect(!seenCards.contains(compositeKey), "Duplicate entry found for '\(card.word)' in deck '\(card.deckName)'.")
 
-            seenWords.insert(normalizedWord)
+            if let existingName = decks[deckKey] {
+                #expect(existingName == card.deckName, "Deck name mismatch for id '\(card.deckId)'.")
+            } else {
+                decks[deckKey] = card.deckName
+            }
+
+            seenCards.insert(compositeKey)
 
             let exampleContainsWord = card.example.range(
                 of: trimmedWord,
