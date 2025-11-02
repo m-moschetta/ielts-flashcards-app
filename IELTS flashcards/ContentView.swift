@@ -11,22 +11,47 @@ import UIKit
 
 // MARK: - Design System Colors (Pathway Aligned)
 struct AppColors {
-    static let primary = Color(red: 226/255, green: 52/255, blue: 52/255) // #e23434 - Red
-    static let secondary = Color(red: 43/255, green: 43/255, blue: 108/255) // #2b2b6c - Dark Blue
-    static let writing = Color(red: 148/255, green: 168/255, blue: 202/255) // #94a8ca - Light Blue
-    static let speaking = Color(red: 155/255, green: 177/255, blue: 117/255) // #9bb175 - Green
-    static let listening = Color(red: 250/255, green: 206/255, blue: 132/255) // #face84 - Yellow
-    static let reading = Color(red: 173/255, green: 135/255, blue: 194/255) // #ad87c2 - Purple
-    static let ai = Color(red: 229/255, green: 187/255, blue: 0/255) // #e5bb00 - Gold
+    static func primary(_ colorScheme: ColorScheme) -> Color {
+        color(forLight: Color(red: 226/255, green: 52/255, blue: 52/255), dark: Color(red: 255/255, green: 112/255, blue: 112/255), colorScheme: colorScheme)
+    }
+    static func secondary(_ colorScheme: ColorScheme) -> Color {
+        color(forLight: Color(red: 43/255, green: 43/255, blue: 108/255), dark: Color(red: 160/255, green: 170/255, blue: 255/255), colorScheme: colorScheme)
+    }
+    static func writing(_ colorScheme: ColorScheme) -> Color {
+        color(forLight: Color(red: 148/255, green: 168/255, blue: 202/255), dark: Color(red: 90/255, green: 115/255, blue: 180/255), colorScheme: colorScheme)
+    }
+    static func speaking(_ colorScheme: ColorScheme) -> Color {
+        color(forLight: Color(red: 155/255, green: 177/255, blue: 117/255), dark: Color(red: 135/255, green: 210/255, blue: 140/255), colorScheme: colorScheme)
+    }
+    static func listening(_ colorScheme: ColorScheme) -> Color {
+        color(forLight: Color(red: 250/255, green: 206/255, blue: 132/255), dark: Color(red: 255/255, green: 222/255, blue: 140/255), colorScheme: colorScheme)
+    }
+    static func reading(_ colorScheme: ColorScheme) -> Color {
+        color(forLight: Color(red: 173/255, green: 135/255, blue: 194/255), dark: Color(red: 195/255, green: 160/255, blue: 230/255), colorScheme: colorScheme)
+    }
+    static func ai(_ colorScheme: ColorScheme) -> Color {
+        color(forLight: Color(red: 229/255, green: 187/255, blue: 0/255), dark: Color(red: 239/255, green: 210/255, blue: 50/255), colorScheme: colorScheme)
+    }
     
     // Semantic colors for review actions
-    static let reviewAgain = Color(red: 251/255, green: 0/255, blue: 0/255) // Red for "Again"
-    static let reviewGood = reading // Reading purple for "Good"
-    static let reviewEasy = speaking // Speaking green for "Easy"
+    static func reviewAgain(_ colorScheme: ColorScheme) -> Color {
+        color(forLight: Color(red: 251/255, green: 0/255, blue: 0/255), dark: Color(red: 255/255, green: 80/255, blue: 80/255), colorScheme: colorScheme)
+    }
+    static func reviewGood(_ colorScheme: ColorScheme) -> Color {
+        reading(colorScheme) // Reading purple for "Good"
+    }
+    static func reviewEasy(_ colorScheme: ColorScheme) -> Color {
+        speaking(colorScheme) // Speaking green for "Easy"
+    }
+
+    private static func color(forLight: Color, dark: Color, colorScheme: ColorScheme) -> Color {
+        colorScheme == .dark ? dark : forLight
+    }
 }
 
 struct ContentView: View {
     @StateObject private var viewModel: StudySessionViewModel
+    @Environment(\.colorScheme) private var colorScheme
 
     @MainActor
     init(viewModel: StudySessionViewModel) {
@@ -37,19 +62,19 @@ struct ContentView: View {
         NavigationStack {
             content
                 .padding()
-                .navigationTitle("IELTS Flashcards")
+                .navigationTitle("app.name".localized)
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
                     ToolbarItem(placement: .principal) {
                         VStack(spacing: 0) {
-                            Text("IELTS Flashcards")
+                            Text("app.name".localized)
                                 .font(.headline.weight(.semibold))
-                                .foregroundStyle(AppColors.secondary)
+                                .foregroundStyle(AppColors.secondary(colorScheme))
                         }
                     }
                     ToolbarItem(placement: .primaryAction) {
                         optionsMenu
-                            .foregroundStyle(AppColors.secondary)
+                            .foregroundStyle(AppColors.secondary(colorScheme))
                     }
                 }
                 .toolbar {
@@ -70,9 +95,9 @@ struct ContentView: View {
         VStack(spacing: 24) {
             switch viewModel.state {
             case .loading:
-                ProgressView("Caricamento carte…")
+                ProgressView("app.loading".localized)
                     .progressViewStyle(.circular)
-                    .tint(AppColors.secondary)
+                    .tint(AppColors.secondary(colorScheme))
             case let .failed(message):
                 errorView(message: message)
             case let .ready(card):
@@ -83,9 +108,11 @@ struct ContentView: View {
         }
     }
 
+    @State private var showDeckSelection = false
+    
     private var optionsMenu: some View {
         Menu {
-            Section("Mazzo") {
+            Section("menu.deck".localized) {
                 Button {
                     withAnimation {
                         viewModel.setDeck(id: nil)
@@ -95,7 +122,7 @@ struct ContentView: View {
                         Text(StudySessionViewModel.allDecksLabel)
                         if viewModel.selectedDeckId == nil {
                             Image(systemName: "checkmark")
-                                .foregroundStyle(AppColors.primary)
+                                .foregroundStyle(AppColors.primary(colorScheme))
                         }
                     }
                 }
@@ -111,7 +138,7 @@ struct ContentView: View {
                                 Text(deck.name)
                                 if viewModel.selectedDeckId == deck.id {
                                     Image(systemName: "checkmark")
-                                        .foregroundStyle(AppColors.primary)
+                                        .foregroundStyle(AppColors.primary(colorScheme))
                                 }
                             }
                             if !deck.description.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
@@ -122,11 +149,19 @@ struct ContentView: View {
                         }
                     }
                 }
+                
+                Divider()
+                
+                Button {
+                    showDeckSelection = true
+                } label: {
+                    Label("menu.select.decks".localized, systemImage: "square.grid.2x2")
+                }
             }
 
             Divider()
 
-            Section("Livello") {
+            Section("menu.level".localized) {
                 ForEach(Array(viewModel.availableLevels.enumerated()), id: \.offset) { _, level in
                     Button {
                         withAnimation {
@@ -137,7 +172,7 @@ struct ContentView: View {
                             Text(level)
                             if viewModel.selectedLevel == level {
                                 Image(systemName: "checkmark")
-                                    .foregroundStyle(AppColors.primary)
+                                    .foregroundStyle(AppColors.primary(colorScheme))
                             }
                         }
                     }
@@ -151,11 +186,14 @@ struct ContentView: View {
                     viewModel.resetProgress()
                 }
             } label: {
-                Label("Azzera progressi", systemImage: "arrow.counterclockwise")
+                Label("menu.reset.progress".localized, systemImage: "arrow.counterclockwise")
             }
         } label: {
             Image(systemName: "line.3.horizontal.decrease.circle")
-                .foregroundStyle(AppColors.secondary)
+                .foregroundStyle(AppColors.secondary(colorScheme))
+        }
+        .sheet(isPresented: $showDeckSelection) {
+            DeckSelectionView(viewModel: viewModel)
         }
     }
 
@@ -164,22 +202,22 @@ struct ContentView: View {
         VStack(spacing: 12) {
             Image(systemName: "exclamationmark.triangle.fill")
                 .font(.title)
-                .foregroundStyle(AppColors.primary)
+                .foregroundStyle(AppColors.primary(colorScheme))
             
-            Text("Si è verificato un errore")
+            Text("app.error.title".localized)
                 .font(.title3.weight(.semibold))
-                .foregroundStyle(AppColors.secondary)
+                .foregroundStyle(AppColors.secondary(colorScheme))
             
             Text(message)
                 .multilineTextAlignment(.center)
                 .foregroundStyle(.secondary)
                 .font(.caption)
             
-            Button("Riprova") {
+            Button("app.error.retry".localized) {
                 Task { await viewModel.load() }
             }
             .buttonStyle(.borderedProminent)
-            .tint(AppColors.secondary)
+            .tint(AppColors.secondary(colorScheme))
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
     }
@@ -215,19 +253,19 @@ struct ContentView: View {
                 )
                 .frame(height: cardHeight)
 
-                Text(viewModel.showBack ? "Swipe: sinistra = Ripeti, su = Buono, destra = Facile." : "Tocca la carta o premi \"Mostra risposta\".")
+                Text(viewModel.showBack ? "study.swipe.hint".localized : "study.tap.card".localized)
                     .font(.footnote)
                     .foregroundStyle(.secondary)
                     .frame(maxWidth: .infinity, alignment: .center)
 
                 if !viewModel.showBack {
-                    Button("Mostra risposta") {
+                    Button("study.show.answer".localized) {
                         withAnimation(.easeInOut) {
                             viewModel.toggleCard()
                         }
                     }
                     .buttonStyle(.borderedProminent)
-                    .tint(AppColors.reading)
+                    .tint(AppColors.reading(colorScheme))
                     .frame(maxWidth: .infinity)
                 }
 
@@ -253,13 +291,13 @@ struct ContentView: View {
         VStack(spacing: 16) {
             Image(systemName: "checkmark.circle.fill")
                 .font(.system(size: 48))
-                .foregroundStyle(AppColors.speaking)
+                .foregroundStyle(AppColors.speaking(colorScheme))
             
-            Text("Tutte le carte sono aggiornate 🎉")
+            Text("app.completed.title".localized)
                 .font(.title3.weight(.semibold))
-                .foregroundStyle(AppColors.secondary)
+                .foregroundStyle(AppColors.secondary(colorScheme))
             
-            Text("Torna più tardi oppure azzera i progressi per ricominciare da capo.")
+            Text("app.completed.subtitle".localized)
                 .multilineTextAlignment(.center)
                 .foregroundStyle(.secondary)
                 .font(.caption)
@@ -269,10 +307,10 @@ struct ContentView: View {
                     viewModel.resetProgress()
                 }
             } label: {
-                Label("Azzera progressi", systemImage: "arrow.counterclockwise")
+                Label("app.completed.reset".localized, systemImage: "arrow.counterclockwise")
             }
             .buttonStyle(.bordered)
-            .foregroundStyle(AppColors.primary)
+            .foregroundStyle(AppColors.primary(colorScheme))
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
     }
@@ -287,6 +325,7 @@ private struct SwipeableFlashcardView: View {
     @State private var translation: CGSize = .zero
     @State private var isDragging = false
     @State private var isAnimatingOut = false
+    @Environment(\.colorScheme) var colorScheme
 
     private let horizontalThreshold: CGFloat = 100
     private let verticalThreshold: CGFloat = 100
@@ -299,19 +338,19 @@ private struct SwipeableFlashcardView: View {
             .scaleEffect(isDragging ? 0.98 : 1.0)
             .overlay(alignment: .topLeading) {
                 if showBack && translation.width < -60 {
-                    SwipeBadge(text: "Ripeti", color: AppColors.reviewAgain)
+                    SwipeBadge(text: "Ripeti", color: AppColors.reviewAgain(colorScheme))
                         .padding(16)
                 }
             }
             .overlay(alignment: .topTrailing) {
                 if showBack && translation.width > 60 {
-                    SwipeBadge(text: "Facile", color: AppColors.reviewEasy)
+                    SwipeBadge(text: "Facile", color: AppColors.reviewEasy(colorScheme))
                         .padding(16)
                 }
             }
             .overlay(alignment: .top) {
                 if showBack && translation.height < -60 {
-                    SwipeBadge(text: "Buono", color: AppColors.reviewGood)
+                    SwipeBadge(text: "Buono", color: AppColors.reviewGood(colorScheme))
                         .padding(.top, 28)
                 }
             }
@@ -394,6 +433,7 @@ private struct SwipeableFlashcardView: View {
 private struct SwipeBadge: View {
     let text: String
     let color: Color
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         Text(text.uppercased())
@@ -434,8 +474,8 @@ final class StudySessionViewModel: ObservableObject {
         case ready(Flashcard)
         case completed
     }
-    static let allLevelsLabel = "Tutti i livelli"
-    static let allDecksLabel = "Tutti i mazzi"
+    static let allLevelsLabel = "menu.all.levels".localized
+    static let allDecksLabel = "menu.all.decks".localized
 
     struct DeckFilter: Identifiable, Equatable {
         let id: String
@@ -456,7 +496,7 @@ final class StudySessionViewModel: ObservableObject {
     private let loadCards: () throws -> [Flashcard]
     private let progressStore: FlashcardProgressStore
     private let scheduler: SpacedRepetitionScheduler
-    private var allCards: [Flashcard] = []
+    private(set) var allCards: [Flashcard] = []
     private var progressById: [String: FlashcardProgress] = [:]
     private(set) var hasLoaded = false
 
@@ -482,7 +522,7 @@ final class StudySessionViewModel: ObservableObject {
         scheduler: SpacedRepetitionScheduler = SpacedRepetitionScheduler(),
         initialCards: [Flashcard]? = nil,
         initialProgress: [String: FlashcardProgress]? = nil,
-        selectedLevel: String = "Tutti i livelli"
+        selectedLevel: String = StudySessionViewModel.allLevelsLabel
     ) {
         self.loadCards = loadCards
         self.progressStore = progressStore
@@ -507,7 +547,7 @@ final class StudySessionViewModel: ObservableObject {
             configure(with: cards, initialProgress: storedProgress)
             hasLoaded = true
         } catch {
-            errorMessage = "Impossibile caricare le flashcard. \(error.localizedDescription)"
+            errorMessage = "app.error.title".localized + ": \(error.localizedDescription)"
         }
 
         isLoading = false
@@ -695,17 +735,18 @@ private struct StudyHeaderView: View {
     let dueCount: Int
     let deckName: String
     let levelName: String
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         VStack(spacing: 10) {
             HStack(alignment: .center) {
                 Text(deckName)
                     .font(.headline.weight(.semibold))
-                    .foregroundStyle(AppColors.secondary)
+                    .foregroundStyle(AppColors.secondary(colorScheme))
                     .lineLimit(1)
                 Spacer()
                 if totalCount > 0 {
-                    Text("Carta \(currentPosition) di \(totalCount)")
+                    Text("study.card.of".localized(with: currentPosition, totalCount))
                         .font(.caption)
                         .foregroundStyle(.secondary)
                 }
@@ -717,14 +758,14 @@ private struct StudyHeaderView: View {
                     .foregroundStyle(.white)
                     .padding(.horizontal, 12)
                     .padding(.vertical, 5)
-                    .background(AppColors.secondary)
+                    .background(AppColors.secondary(colorScheme))
                     .clipShape(Capsule())
 
                 Spacer()
 
-                Label("\(dueCount) da ripassare", systemImage: "clock.arrow.circlepath")
+                Label("study.due.count".localized(with: dueCount), systemImage: "clock.arrow.circlepath")
                     .font(.caption)
-                    .foregroundStyle(AppColors.primary.opacity(0.85))
+                    .foregroundStyle(AppColors.primary(colorScheme).opacity(0.85))
                     .fontWeight(.medium)
             }
         }
@@ -734,33 +775,34 @@ private struct StudyHeaderView: View {
 private struct FlashcardStudyCard: View {
     let card: Flashcard
     let showBack: Bool
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             Text(card.word.capitalized)
                 .font(.largeTitle.weight(.bold))
-                .foregroundStyle(AppColors.secondary)
+                .foregroundStyle(AppColors.secondary(colorScheme))
 
             Text(card.translation)
                 .font(.title3)
-                .foregroundStyle(AppColors.primary)
+                .foregroundStyle(AppColors.primary(colorScheme))
 
             Divider()
 
             if showBack {
                 VStack(alignment: .leading, spacing: 12) {
                     VStack(alignment: .leading, spacing: 4) {
-                        Text("Definizione")
+                        Text("card.definition".localized)
                             .font(.headline)
-                            .foregroundStyle(AppColors.reading)
+                            .foregroundStyle(AppColors.reading(colorScheme))
                         Text(card.definition)
                             .foregroundStyle(.primary)
                     }
 
                     VStack(alignment: .leading, spacing: 4) {
-                        Text("Esempio")
+                        Text("card.example".localized)
                             .font(.headline)
-                            .foregroundStyle(AppColors.reading)
+                            .foregroundStyle(AppColors.reading(colorScheme))
                         Text("\u{201C}\(card.example)\u{201D}")
                             .italic()
                             .foregroundStyle(.secondary)
@@ -768,7 +810,7 @@ private struct FlashcardStudyCard: View {
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
             } else {
-                Text("Tocca per visualizzare la definizione e l'esempio.")
+                Text("card.tap.hint".localized)
                     .foregroundStyle(.secondary)
                     .italic()
             }
@@ -779,16 +821,22 @@ private struct FlashcardStudyCard: View {
         .background(
             RoundedRectangle(cornerRadius: 22, style: .continuous)
                 .fill(
-                    LinearGradient(
+                    colorScheme == .dark
+                    ? LinearGradient(
+                        gradient: Gradient(colors: [Color(.systemGray6), Color(.systemGray4)]),
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                      )
+                    : LinearGradient(
                         gradient: Gradient(colors: [
                             Color.white,
                             Color(red: 248/255, green: 248/255, blue: 255/255)
                         ]),
                         startPoint: .topLeading,
                         endPoint: .bottomTrailing
-                    )
+                      )
                 )
-                .shadow(color: AppColors.secondary.opacity(0.1), radius: 12, x: 0, y: 6)
+                .shadow(color: AppColors.secondary(colorScheme).opacity(0.1), radius: 12, x: 0, y: 6)
         )
     }
 }
@@ -798,30 +846,31 @@ private struct StudyActionsView: View {
     let onAgain: () -> Void
     let onGood: () -> Void
     let onEasy: () -> Void
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         HStack(spacing: 12) {
             StudyActionButton(
-                title: "Ripeti",
-                subtitle: "10 min",
+                title: "study.again".localized,
+                subtitle: "study.again.time".localized,
                 systemImage: "arrow.uturn.backward",
-                tint: AppColors.reviewAgain,
+                tint: AppColors.reviewAgain(colorScheme),
                 action: onAgain
             )
 
             StudyActionButton(
-                title: "Buono",
-                subtitle: "1 giorno",
+                title: "study.good".localized,
+                subtitle: "study.good.time".localized,
                 systemImage: "checkmark.circle",
-                tint: AppColors.reviewGood,
+                tint: AppColors.reviewGood(colorScheme),
                 action: onGood
             )
 
             StudyActionButton(
-                title: "Facile",
-                subtitle: "2+ giorni",
+                title: "study.easy".localized,
+                subtitle: "study.easy.time".localized,
                 systemImage: "sun.max",
-                tint: AppColors.reviewEasy,
+                tint: AppColors.reviewEasy(colorScheme),
                 action: onEasy
             )
         }
@@ -836,6 +885,7 @@ private struct StudyActionButton: View {
     let systemImage: String
     let tint: Color
     let action: () -> Void
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         Button(action: action) {
@@ -859,6 +909,7 @@ private struct StudyActionButton: View {
 private struct StudyProgressSummaryView: View {
     let studiedCount: Int
     let totalCount: Int
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
@@ -866,9 +917,9 @@ private struct StudyProgressSummaryView: View {
                 value: Double(studiedCount),
                 total: Double(max(totalCount, 1))
             )
-            .tint(AppColors.secondary)
+            .tint(AppColors.secondary(colorScheme))
 
-            Text("Avanzamento \(studiedCount)/\(totalCount)")
+            Text("study.progress".localized(with: studiedCount, totalCount))
                 .font(.caption)
                 .foregroundStyle(.secondary)
         }
@@ -914,3 +965,4 @@ private struct StudyProgressSummaryView: View {
         )
     )
 }
+

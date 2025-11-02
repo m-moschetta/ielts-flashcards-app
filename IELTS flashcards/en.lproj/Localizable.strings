@@ -1,0 +1,91 @@
+/* App Name */
+"app.name" = "way2IELTS wordcard";
+
+/* Onboarding - Welcome */
+"onboarding.welcome.title" = "Welcome to way2IELTS wordcard";
+"onboarding.welcome.subtitle" = "Learn IELTS vocabulary effectively";
+"onboarding.welcome.button" = "Get Started";
+
+/* Onboarding - Philosophy 1 */
+"onboarding.philosophy1.title" = "Just 2 minutes a day";
+"onboarding.philosophy1.subtitle" = "With just 2 minutes a day you can learn effectively and sustainably";
+"onboarding.philosophy1.button" = "Continue";
+
+/* Onboarding - Philosophy 2 */
+"onboarding.philosophy2.title" = "3 new words per day";
+"onboarding.philosophy2.subtitle" = "3 words × 90 days = ~300 words every 3 months";
+"onboarding.philosophy2.subtitle2" = "A gradual path to success";
+"onboarding.philosophy2.button" = "Continue";
+
+/* Onboarding - Philosophy 3 */
+"onboarding.philosophy3.title" = "IELTS-focused words";
+"onboarding.philosophy3.subtitle" = "All words in the decks are useful for the IELTS exam";
+"onboarding.philosophy3.subtitle2" = "Optimized vocabulary to maximize your results";
+"onboarding.philosophy3.button" = "Continue";
+
+/* Onboarding - Tutorial */
+"onboarding.tutorial.title" = "How it works";
+"onboarding.tutorial.subtitle" = "Tap the card to see the definition";
+"onboarding.tutorial.swipe" = "Swipe to rate:";
+"onboarding.tutorial.swipe.left" = "Left = Review Again";
+"onboarding.tutorial.swipe.up" = "Up = Good";
+"onboarding.tutorial.swipe.right" = "Right = Easy";
+"onboarding.tutorial.button" = "Got it";
+
+/* Onboarding - Deck Selection */
+"onboarding.decks.title" = "Select decks";
+"onboarding.decks.subtitle" = "Choose the decks you want to study";
+"onboarding.decks.button" = "Start studying";
+"onboarding.decks.skip" = "Skip";
+
+/* Deck Selection */
+"deck.selection.title" = "Select decks";
+"deck.selection.subtitle" = "Choose the decks you want to study";
+"deck.selection.all" = "All decks";
+"deck.selection.cards" = "%d cards";
+"deck.selection.select" = "Select";
+"deck.selection.deselect" = "Deselect";
+
+/* Common */
+"common.next" = "Next";
+"common.back" = "Back";
+"common.skip" = "Skip";
+"common.done" = "Done";
+"common.start" = "Start";
+"common.continue" = "Continue";
+
+/* Main App */
+"app.loading" = "Loading cards…";
+"app.error.title" = "An error occurred";
+"app.error.retry" = "Retry";
+"app.completed.title" = "All cards are up to date 🎉";
+"app.completed.subtitle" = "Come back later or reset your progress to start over.";
+"app.completed.reset" = "Reset progress";
+
+/* Menu */
+"menu.deck" = "Deck";
+"menu.all.decks" = "All decks";
+"menu.level" = "Level";
+"menu.all.levels" = "All levels";
+"menu.reset.progress" = "Reset progress";
+"menu.select.decks" = "Select decks";
+
+/* Study */
+"study.card.of" = "Card %d of %d";
+"study.due.count" = "%d to review";
+"study.show.answer" = "Show answer";
+"study.tap.card" = "Tap the card or press \"Show answer\".";
+"study.swipe.hint" = "Swipe: left = Review Again, up = Good, right = Easy.";
+"study.again" = "Review Again";
+"study.again.time" = "10 min";
+"study.good" = "Good";
+"study.good.time" = "1 day";
+"study.easy" = "Easy";
+"study.easy.time" = "2+ days";
+"study.progress" = "Progress %d/%d";
+
+/* Card */
+"card.definition" = "Definition";
+"card.example" = "Example";
+"card.tap.hint" = "Tap to view the definition and example.";
+

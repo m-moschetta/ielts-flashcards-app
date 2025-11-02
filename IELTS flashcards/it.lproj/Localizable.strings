@@ -1,0 +1,91 @@
+/* App Name */
+"app.name" = "way2IELTS wordcard";
+
+/* Onboarding - Welcome */
+"onboarding.welcome.title" = "Benvenuto in way2IELTS wordcard";
+"onboarding.welcome.subtitle" = "Impara il vocabolario IELTS in modo efficace";
+"onboarding.welcome.button" = "Inizia";
+
+/* Onboarding - Philosophy 1 */
+"onboarding.philosophy1.title" = "Solo 2 minuti al giorno";
+"onboarding.philosophy1.subtitle" = "Con soli 2 minuti al giorno puoi imparare in modo efficace e sostenibile";
+"onboarding.philosophy1.button" = "Continua";
+
+/* Onboarding - Philosophy 2 */
+"onboarding.philosophy2.title" = "3 parole nuove al giorno";
+"onboarding.philosophy2.subtitle" = "3 parole × 90 giorni = ~300 parole ogni 3 mesi";
+"onboarding.philosophy2.subtitle2" = "Un percorso graduale verso il successo";
+"onboarding.philosophy2.button" = "Continua";
+
+/* Onboarding - Philosophy 3 */
+"onboarding.philosophy3.title" = "Parole selezionate per IELTS";
+"onboarding.philosophy3.subtitle" = "Tutte le parole nei mazzi sono utili per l'esame IELTS";
+"onboarding.philosophy3.subtitle2" = "Vocabolario ottimizzato per massimizzare i tuoi risultati";
+"onboarding.philosophy3.button" = "Continua";
+
+/* Onboarding - Tutorial */
+"onboarding.tutorial.title" = "Come funziona";
+"onboarding.tutorial.subtitle" = "Tocca la carta per vedere la definizione";
+"onboarding.tutorial.swipe" = "Swipe per valutare:";
+"onboarding.tutorial.swipe.left" = "Sinistra = Ripeti";
+"onboarding.tutorial.swipe.up" = "Su = Buono";
+"onboarding.tutorial.swipe.right" = "Destra = Facile";
+"onboarding.tutorial.button" = "Capito";
+
+/* Onboarding - Deck Selection */
+"onboarding.decks.title" = "Seleziona i mazzi";
+"onboarding.decks.subtitle" = "Scegli i mazzi che vuoi studiare";
+"onboarding.decks.button" = "Inizia a studiare";
+"onboarding.decks.skip" = "Saltare";
+
+/* Deck Selection */
+"deck.selection.title" = "Seleziona mazzi";
+"deck.selection.subtitle" = "Scegli i mazzi che vuoi studiare";
+"deck.selection.all" = "Tutti i mazzi";
+"deck.selection.cards" = "%d carte";
+"deck.selection.select" = "Seleziona";
+"deck.selection.deselect" = "Deseleziona";
+
+/* Common */
+"common.next" = "Avanti";
+"common.back" = "Indietro";
+"common.skip" = "Salta";
+"common.done" = "Fatto";
+"common.start" = "Inizia";
+"common.continue" = "Continua";
+
+/* Main App */
+"app.loading" = "Caricamento carte…";
+"app.error.title" = "Si è verificato un errore";
+"app.error.retry" = "Riprova";
+"app.completed.title" = "Tutte le carte sono aggiornate 🎉";
+"app.completed.subtitle" = "Torna più tardi oppure azzera i progressi per ricominciare da capo.";
+"app.completed.reset" = "Azzera progressi";
+
+/* Menu */
+"menu.deck" = "Mazzo";
+"menu.all.decks" = "Tutti i mazzi";
+"menu.level" = "Livello";
+"menu.all.levels" = "Tutti i livelli";
+"menu.reset.progress" = "Azzera progressi";
+"menu.select.decks" = "Seleziona mazzi";
+
+/* Study */
+"study.card.of" = "Carta %d di %d";
+"study.due.count" = "%d da ripassare";
+"study.show.answer" = "Mostra risposta";
+"study.tap.card" = "Tocca la carta o premi \"Mostra risposta\".";
+"study.swipe.hint" = "Swipe: sinistra = Ripeti, su = Buono, destra = Facile.";
+"study.again" = "Ripeti";
+"study.again.time" = "10 min";
+"study.good" = "Buono";
+"study.good.time" = "1 giorno";
+"study.easy" = "Facile";
+"study.easy.time" = "2+ giorni";
+"study.progress" = "Avanzamento %d/%d";
+
+/* Card */
+"card.definition" = "Definizione";
+"card.example" = "Esempio";
+"card.tap.hint" = "Tocca per visualizzare la definizione e l'esempio.";
+

@@ -2908,5 +2908,2105 @@
     "definition": "A student studying for their first degree.",
     "example": "I’m an undergraduate student.",
     "translation": "studente universitario"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "academic journal",
+    "level": "Intermedio",
+    "definition": "An academic periodical.",
+    "example": "Academic journals publish peer-reviewed studies.",
+    "translation": "rivista accademica"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "argument",
+    "level": "Intermedio",
+    "definition": "A reasoned statement used to persuade or explain.",
+    "example": "The author presents a strong argument against pollution.",
+    "translation": "argomento"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "argumentative text",
+    "level": "Intermedio",
+    "definition": "Text written to argue or persuade.",
+    "example": "An argumentative text defends a position.",
+    "translation": "testo argomentativo"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "assumption",
+    "level": "Intermedio",
+    "definition": "Something accepted as true without proof.",
+    "example": "The assumption is that all participants were honest.",
+    "translation": "presupposto"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "author’s attitude",
+    "level": "Intermedio",
+    "definition": "The writer’s opinion or emotion.",
+    "example": "The author’s attitude seems optimistic.",
+    "translation": "atteggiamento dell’autore"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "biased",
+    "level": "Intermedio",
+    "definition": "Showing unfair preference.",
+    "example": "The review is biased toward positive outcomes.",
+    "translation": "di parte"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "cause",
+    "level": "Intermedio",
+    "definition": "Something that makes something happen.",
+    "example": "Industrialization causes environmental change.",
+    "translation": "causa"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "claim",
+    "level": "Intermedio",
+    "definition": "A statement that something is true.",
+    "example": "His claim lacks supporting evidence.",
+    "translation": "affermazione"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "comparison",
+    "level": "Intermedio",
+    "definition": "A comparison of similarities or differences.",
+    "example": "The comparison highlights key differences.",
+    "translation": "confronto"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "conclude",
+    "level": "Intermedio",
+    "definition": "To reach a conclusion or decision.",
+    "example": "The paragraph concludes that education improves opportunities.",
+    "translation": "concludere"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "conclusion",
+    "level": "Intermedio",
+    "definition": "A final judgment or decision based on evidence.",
+    "example": "The conclusion summarizes the results.",
+    "translation": "conclusione"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "consequence",
+    "level": "Intermedio",
+    "definition": "A result or outcome of an action.",
+    "example": "One consequence of overfishing is species loss.",
+    "translation": "conseguenza"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "context",
+    "level": "Intermedio",
+    "definition": "The surrounding text or situation.",
+    "example": "The meaning depends on the context of the paragraph.",
+    "translation": "contesto"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "contrast",
+    "level": "Intermedio",
+    "definition": "To show differences between things.",
+    "example": "The writer contrasts two political systems.",
+    "translation": "mettere a confronto"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "data",
+    "level": "Intermedio",
+    "definition": "Facts and statistics used for analysis.",
+    "example": "The data reveals an upward trend.",
+    "translation": "dati"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "demonstrate",
+    "level": "Intermedio",
+    "definition": "To show something clearly through evidence.",
+    "example": "The experiment demonstrates the law of gravity.",
+    "translation": "dimostrare"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "descriptive text",
+    "level": "Intermedio",
+    "definition": "Text describing something in detail.",
+    "example": "A descriptive text provides detailed information.",
+    "translation": "testo descrittivo"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "discursive text",
+    "level": "Intermedio",
+    "definition": "Text discussing different viewpoints.",
+    "example": "A discursive text explores multiple opinions.",
+    "translation": "testo discorsivo"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "effect",
+    "level": "Intermedio",
+    "definition": "The outcome or effect of something.",
+    "example": "The effect of stress on performance is measurable.",
+    "translation": "effetto"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "emphasize",
+    "level": "Intermedio",
+    "definition": "To give special importance to something.",
+    "example": "The report emphasizes the need for further research.",
+    "translation": "sottolineare"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "evidence",
+    "level": "Intermedio",
+    "definition": "Information that supports a claim.",
+    "example": "The article provides evidence from several studies.",
+    "translation": "prova"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "example",
+    "level": "Intermedio",
+    "definition": "A specific case used to explain.",
+    "example": "This example illustrates the issue clearly.",
+    "translation": "esempio"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "findings",
+    "level": "Intermedio",
+    "definition": "Information obtained through study.",
+    "example": "The findings confirm the hypothesis.",
+    "translation": "risultati"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "highlight",
+    "level": "Intermedio",
+    "definition": "To draw attention to something important.",
+    "example": "The author highlights the problem of inequality.",
+    "translation": "evidenziare"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "illustrate",
+    "level": "Intermedio",
+    "definition": "To give examples to make something clear.",
+    "example": "The chart illustrates population growth.",
+    "translation": "illustrare"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "imply",
+    "level": "Intermedio",
+    "definition": "To express something indirectly.",
+    "example": "The findings imply a need for regulation.",
+    "translation": "implicare"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "indicate",
+    "level": "Intermedio",
+    "definition": "To show or make clear.",
+    "example": "The results indicate a clear trend.",
+    "translation": "indicare"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "infer",
+    "level": "Intermedio",
+    "definition": "To deduce or conclude information.",
+    "example": "We can infer that exercise improves health.",
+    "translation": "dedurre"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "interpretation",
+    "level": "Intermedio",
+    "definition": "The act of explaining meaning.",
+    "example": "Their interpretation of the data was controversial.",
+    "translation": "interpretazione"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "main idea",
+    "level": "Intermedio",
+    "definition": "The central idea of a text.",
+    "example": "The main idea focuses on sustainability.",
+    "translation": "idea principale"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "neutral",
+    "level": "Intermedio",
+    "definition": "Not taking sides.",
+    "example": "The article maintains a neutral tone.",
+    "translation": "neutrale"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "objective",
+    "level": "Intermedio",
+    "definition": "Something intended to be achieved.",
+    "example": "The objective of the study is to evaluate new methods.",
+    "translation": "obiettivo"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "oppose",
+    "level": "Intermedio",
+    "definition": "To express opposition to something.",
+    "example": "Several scientists oppose this hypothesis.",
+    "translation": "opporsi"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "perspective",
+    "level": "Intermedio",
+    "definition": "A particular point of view.",
+    "example": "The article presents different perspectives on globalization.",
+    "translation": "prospettiva"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "purpose",
+    "level": "Intermedio",
+    "definition": "The reason something is written.",
+    "example": "The purpose of the text is to inform readers.",
+    "translation": "scopo"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "refute",
+    "level": "Intermedio",
+    "definition": "To prove a statement wrong.",
+    "example": "The results refute the earlier conclusion.",
+    "translation": "confutare"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "relationship",
+    "level": "Intermedio",
+    "definition": "A connection between two or more ideas.",
+    "example": "The relationship between poverty and education is complex.",
+    "translation": "relazione"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "reliable",
+    "level": "Intermedio",
+    "definition": "Able to be trusted or believed.",
+    "example": "The data is reliable across samples.",
+    "translation": "affidabile"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "research paper",
+    "level": "Intermedio",
+    "definition": "An academic essay presenting research.",
+    "example": "The research paper analyzes economic trends.",
+    "translation": "saggio di ricerca"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "result",
+    "level": "Intermedio",
+    "definition": "The result of a cause.",
+    "example": "The result shows improved accuracy.",
+    "translation": "risultato"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "scientific article",
+    "level": "Intermedio",
+    "definition": "A scientific publication.",
+    "example": "Scientific articles often contain data tables.",
+    "translation": "articolo scientifico"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "study",
+    "level": "Intermedio",
+    "definition": "An investigation into a topic.",
+    "example": "The study examines consumer behavior.",
+    "translation": "studio"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "suggest",
+    "level": "Intermedio",
+    "definition": "To show or express an idea.",
+    "example": "The data suggest an increase in rainfall.",
+    "translation": "suggerire"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "summary",
+    "level": "Intermedio",
+    "definition": "A short version of the main points.",
+    "example": "The summary includes the central argument only.",
+    "translation": "riassunto"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "support",
+    "level": "Intermedio",
+    "definition": "To provide evidence or reasons for.",
+    "example": "The evidence supports the author’s argument.",
+    "translation": "sostenere"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "survey",
+    "level": "Intermedio",
+    "definition": "A collection of data or responses.",
+    "example": "The survey collected data from 500 participants.",
+    "translation": "sondaggio"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "thesis",
+    "level": "Intermedio",
+    "definition": "A long academic essay or dissertation.",
+    "example": "His thesis discusses renewable energy policies.",
+    "translation": "tesi"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "tone",
+    "level": "Intermedio",
+    "definition": "The emotional feeling of a text.",
+    "example": "The tone of the passage is formal and analytical.",
+    "translation": "tono"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "valid",
+    "level": "Intermedio",
+    "definition": "Based on logic or evidence.",
+    "example": "The findings appear valid and consistent.",
+    "translation": "valido"
+  },
+  {
+    "deckId": "reading-academic",
+    "deckName": "Reading Academic Types",
+    "deckDescription": "Tipi di testo e struttura per la Reading accademica.",
+    "word": "viewpoint",
+    "level": "Intermedio",
+    "definition": "The position from which an author writes.",
+    "example": "The viewpoint is clearly stated in the introduction.",
+    "translation": "punto di vista"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "axis",
+    "level": "Intermedio",
+    "definition": "The reference lines on a graph.",
+    "example": "The X-axis shows the years.",
+    "translation": "asse"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "bar chart",
+    "level": "Intermedio",
+    "definition": "A graph using rectangular bars.",
+    "example": "The bar chart compares production levels.",
+    "translation": "grafico a barre"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "bottom out",
+    "level": "Intermedio",
+    "definition": "To reach the lowest point.",
+    "example": "Inflation levels bottom out in 2010.",
+    "translation": "toccare il minimo"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "category",
+    "level": "Intermedio",
+    "definition": "A classification or type.",
+    "example": "Each category represents a different age group.",
+    "translation": "categoria"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "chart",
+    "level": "Intermedio",
+    "definition": "A visual display of data.",
+    "example": "The chart displays global sales.",
+    "translation": "grafico"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "compare",
+    "level": "Intermedio",
+    "definition": "To examine similarities and differences.",
+    "example": "The chart compares male and female employment rates.",
+    "translation": "confrontare"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "comparison",
+    "level": "Intermedio",
+    "definition": "A statement of how things are similar or different.",
+    "example": "The comparison shows regional differences.",
+    "translation": "confronto"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "considerably",
+    "level": "Intermedio",
+    "definition": "To a significant degree.",
+    "example": "Profits grew considerably over five years.",
+    "translation": "notevolmente"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "cycle",
+    "level": "Intermedio",
+    "definition": "A sequence that repeats regularly.",
+    "example": "The cycle repeats every 24 hours.",
+    "translation": "ciclo"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "data",
+    "level": "Intermedio",
+    "definition": "Facts and statistics for analysis.",
+    "example": "The data shows a steady increase.",
+    "translation": "dati"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "decrease",
+    "level": "Intermedio",
+    "definition": "To go down in number or level.",
+    "example": "The unemployment rate decreased slightly in 2019.",
+    "translation": "diminuire"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "demonstrate",
+    "level": "Intermedio",
+    "definition": "To clearly show evidence or results.",
+    "example": "The results demonstrate a clear upward trend.",
+    "translation": "dimostrare"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "depict",
+    "level": "Intermedio",
+    "definition": "To show in a picture or diagram.",
+    "example": "The diagram depicts the stages of water filtration.",
+    "translation": "rappresentare"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "describe",
+    "level": "Intermedio",
+    "definition": "To give an account of something in words.",
+    "example": "The report describes the production process.",
+    "translation": "descrivere"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "diagram",
+    "level": "Intermedio",
+    "definition": "A drawing showing parts or stages.",
+    "example": "The diagram illustrates energy transformation.",
+    "translation": "diagramma"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "dramatically",
+    "level": "Intermedio",
+    "definition": "In an extreme or noticeable way.",
+    "example": "The export volume rose dramatically.",
+    "translation": "drammaticamente"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "drop sharply",
+    "level": "Intermedio",
+    "definition": "To decrease suddenly and quickly.",
+    "example": "Exports drop sharply in 2015.",
+    "translation": "scendere bruscamente"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "figure",
+    "level": "Intermedio",
+    "definition": "A number, measurement, or value.",
+    "example": "The figure for 2015 was higher than expected.",
+    "translation": "valore"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "flow",
+    "level": "Intermedio",
+    "definition": "The movement or direction of a process.",
+    "example": "The flow of materials is shown in arrows.",
+    "translation": "flusso"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "flowchart",
+    "level": "Intermedio",
+    "definition": "A diagram showing process flow.",
+    "example": "The flowchart explains the recycling procedure.",
+    "translation": "diagramma di flusso"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "fluctuate",
+    "level": "Intermedio",
+    "definition": "To change frequently in amount or level.",
+    "example": "The prices fluctuated during the decade.",
+    "translation": "fluttuare"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "from the data it is apparent that",
+    "level": "Intermedio",
+    "definition": "Used to draw attention to main findings.",
+    "example": "From the data it is apparent that pollution decreased.",
+    "translation": "dai dati appare evidente che"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "gradually",
+    "level": "Intermedio",
+    "definition": "Slowly and by degrees.",
+    "example": "Production increased gradually over time.",
+    "translation": "gradualmente"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "graph",
+    "level": "Intermedio",
+    "definition": "A type of diagram showing data.",
+    "example": "The graph shows yearly revenue.",
+    "translation": "grafico"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "group",
+    "level": "Intermedio",
+    "definition": "A collection of items with shared traits.",
+    "example": "Each group includes five participants.",
+    "translation": "gruppo"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "highlight",
+    "level": "Intermedio",
+    "definition": "To emphasize important information.",
+    "example": "The data highlight a significant difference between countries.",
+    "translation": "evidenziare"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "illustrate",
+    "level": "Intermedio",
+    "definition": "To explain or make something clear by using examples or visuals.",
+    "example": "The graph illustrates population growth between 1990 and 2020.",
+    "translation": "illustrare"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "in conclusion",
+    "level": "Intermedio",
+    "definition": "Used to end the description.",
+    "example": "In conclusion, the chart shows steady growth.",
+    "translation": "in conclusione"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "increase",
+    "level": "Intermedio",
+    "definition": "To go up in number or level.",
+    "example": "Sales increased steadily from January to March.",
+    "translation": "aumentare"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "indicate",
+    "level": "Intermedio",
+    "definition": "To point out or show clearly.",
+    "example": "The figures indicate a gradual decline in exports.",
+    "translation": "indicare"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "information",
+    "level": "Intermedio",
+    "definition": "Details or knowledge obtained from study.",
+    "example": "The information was collected over five years.",
+    "translation": "informazioni"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "it can be seen that",
+    "level": "Intermedio",
+    "definition": "Used to introduce a visual observation.",
+    "example": "It can be seen that exports rose steadily.",
+    "translation": "si può vedere che"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "label",
+    "level": "Intermedio",
+    "definition": "The name or title attached to an axis or category.",
+    "example": "Each label identifies a data category.",
+    "translation": "etichetta"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "level off",
+    "level": "Intermedio",
+    "definition": "To become flat after movement.",
+    "example": "After 2020, the figures level off.",
+    "translation": "stabilizzarsi"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "line graph",
+    "level": "Intermedio",
+    "definition": "A graph with lines connecting data points.",
+    "example": "The line graph represents growth over time.",
+    "translation": "grafico a linee"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "map",
+    "level": "Intermedio",
+    "definition": "A visual representation of geography.",
+    "example": "The map indicates major urban areas.",
+    "translation": "mappa"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "marginally",
+    "level": "Intermedio",
+    "definition": "By a small amount.",
+    "example": "Sales increased marginally in May.",
+    "translation": "marginalmente"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "moderately",
+    "level": "Intermedio",
+    "definition": "To a medium or moderate extent.",
+    "example": "The company’s output improved moderately.",
+    "translation": "moderatamente"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "over the period shown",
+    "level": "Intermedio",
+    "definition": "Describes the time period of the data.",
+    "example": "Over the period shown, employment rates rose gradually.",
+    "translation": "nel periodo mostrato"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "overall",
+    "level": "Intermedio",
+    "definition": "A general view or summary.",
+    "example": "Overall, the chart shows positive growth.",
+    "translation": "complessivamente"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "overall it is clear that",
+    "level": "Intermedio",
+    "definition": "Used to state an overall conclusion.",
+    "example": "Overall it is clear that production has increased.",
+    "translation": "nel complesso è chiaro che"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "peak",
+    "level": "Intermedio",
+    "definition": "To reach the highest point.",
+    "example": "Oil prices peaked in 2008.",
+    "translation": "raggiungere il picco"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "percentage",
+    "level": "Intermedio",
+    "definition": "A portion of a whole expressed as a percent.",
+    "example": "The percentage of women in higher education grew.",
+    "translation": "percentuale"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "period",
+    "level": "Intermedio",
+    "definition": "A length of time.",
+    "example": "The period under study was from 2000 to 2020.",
+    "translation": "periodo"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "pie chart",
+    "level": "Intermedio",
+    "definition": "A circular chart showing proportions.",
+    "example": "The pie chart shows market share.",
+    "translation": "grafico a torta"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "process",
+    "level": "Intermedio",
+    "definition": "A series of actions to achieve a result.",
+    "example": "The process involves three main stages.",
+    "translation": "processo"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "process diagram",
+    "level": "Intermedio",
+    "definition": "A diagram explaining steps or stages.",
+    "example": "The process diagram shows how electricity is produced.",
+    "translation": "diagramma di processo"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "proportion",
+    "level": "Intermedio",
+    "definition": "A part or share of something.",
+    "example": "The proportion of students increased.",
+    "translation": "proporzione"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "rapidly",
+    "level": "Intermedio",
+    "definition": "Quickly and suddenly.",
+    "example": "Prices rose rapidly during the year.",
+    "translation": "rapidamente"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "rate",
+    "level": "Intermedio",
+    "definition": "The frequency or speed of an occurrence.",
+    "example": "The rate of urbanization doubled in 20 years.",
+    "translation": "tasso"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "remain steady",
+    "level": "Intermedio",
+    "definition": "To stay constant over a period of time.",
+    "example": "Interest rates remain steady throughout the year.",
+    "translation": "rimanere stabile"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "represent",
+    "level": "Intermedio",
+    "definition": "To stand for or symbolize.",
+    "example": "The blue line represents the total income.",
+    "translation": "rappresentare"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "rise gradually",
+    "level": "Intermedio",
+    "definition": "To rise slowly over time.",
+    "example": "User numbers rise gradually over the decade.",
+    "translation": "crescere gradualmente"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "show",
+    "level": "Intermedio",
+    "definition": "To display information or data.",
+    "example": "The table shows student attendance rates.",
+    "translation": "mostrare"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "significantly",
+    "level": "Intermedio",
+    "definition": "To a large or important degree.",
+    "example": "Population grew significantly.",
+    "translation": "significativamente"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "slightly",
+    "level": "Intermedio",
+    "definition": "A small amount or extent.",
+    "example": "Income rose slightly compared to 2018.",
+    "translation": "leggermente"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "stabilize",
+    "level": "Intermedio",
+    "definition": "To become steady after a change.",
+    "example": "After 2010, production stabilized.",
+    "translation": "stabilizzarsi"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "stage",
+    "level": "Intermedio",
+    "definition": "A section or phase of development.",
+    "example": "The second stage involves filtration.",
+    "translation": "stadio"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "steadily",
+    "level": "Intermedio",
+    "definition": "In a stable and even way.",
+    "example": "The economy improved steadily.",
+    "translation": "costantemente"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "step",
+    "level": "Intermedio",
+    "definition": "One part of a process or activity.",
+    "example": "The first step is heating the water.",
+    "translation": "fase"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "substantially",
+    "level": "Intermedio",
+    "definition": "To a great or large extent.",
+    "example": "Employment rose substantially.",
+    "translation": "sostanzialmente"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "summarize",
+    "level": "Intermedio",
+    "definition": "To express the main points briefly.",
+    "example": "Please summarize the key findings in one paragraph.",
+    "translation": "riassumere"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "table",
+    "level": "Intermedio",
+    "definition": "A set of data arranged in rows and columns.",
+    "example": "The table lists company profits.",
+    "translation": "tabella"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "the amount of",
+    "level": "Intermedio",
+    "definition": "Refers to how much of something.",
+    "example": "The amount of rainfall decreased slightly.",
+    "translation": "la quantità di"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "the chart illustrates that",
+    "level": "Intermedio",
+    "definition": "Used to describe what a chart shows.",
+    "example": "The chart illustrates that imports declined.",
+    "translation": "il grafico mostra che"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "the number of",
+    "level": "Intermedio",
+    "definition": "Refers to how many items or people.",
+    "example": "The number of tourists rose sharply.",
+    "translation": "il numero di"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "the percentage of",
+    "level": "Intermedio",
+    "definition": "Refers to what percentage of the total.",
+    "example": "The percentage of renewable energy doubled.",
+    "translation": "la percentuale di"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "to summarize",
+    "level": "Intermedio",
+    "definition": "Used to give a brief summary.",
+    "example": "To summarize, all indicators improved.",
+    "translation": "in sintesi"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "trend",
+    "level": "Intermedio",
+    "definition": "A pattern of change or development.",
+    "example": "The trend suggests continued improvement.",
+    "translation": "tendenza"
+  },
+  {
+    "deckId": "writing-task1",
+    "deckName": "Writing Task 1 Academic",
+    "deckDescription": "Lessico essenziale per descrivere grafici, tabelle e processi in Task 1.",
+    "word": "trend line",
+    "level": "Intermedio",
+    "definition": "A line showing data trend over time.",
+    "example": "The trend line demonstrates an upward pattern.",
+    "translation": "linea di tendenza"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "advantage",
+    "level": "Intermedio",
+    "definition": "A positive feature or quality.",
+    "example": "One advantage of studying abroad is language immersion.",
+    "translation": "vantaggio"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "agree",
+    "level": "Intermedio",
+    "definition": "To share the same opinion as someone.",
+    "example": "I agree that education is the key to success.",
+    "translation": "essere d’accordo"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "analyze",
+    "level": "Intermedio",
+    "definition": "To study something closely.",
+    "example": "The study analyzes data from 20 countries.",
+    "translation": "analizzare"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "approach",
+    "level": "Intermedio",
+    "definition": "A way of dealing with something.",
+    "example": "The approach focuses on prevention rather than cure.",
+    "translation": "approccio"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "argue",
+    "level": "Intermedio",
+    "definition": "To give reasons to support an idea or opinion.",
+    "example": "Experts argue that renewable energy is essential for the future.",
+    "translation": "sostenere"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "As a result",
+    "level": "Intermedio",
+    "definition": "Used to indicate the result of something.",
+    "example": "As a result, more people use public transport.",
+    "translation": "come risultato"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "aspect",
+    "level": "Intermedio",
+    "definition": "A particular part of a situation.",
+    "example": "An important aspect of success is perseverance.",
+    "translation": "aspetto"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "assert",
+    "level": "Intermedio",
+    "definition": "To state something firmly.",
+    "example": "The report asserts that taxes must be increased.",
+    "translation": "asserire"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "benefit",
+    "level": "Intermedio",
+    "definition": "A helpful or useful effect.",
+    "example": "A benefit of technology is better communication.",
+    "translation": "beneficio"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "case",
+    "level": "Intermedio",
+    "definition": "A concrete example.",
+    "example": "This case shows how innovation drives success.",
+    "translation": "caso"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "cause",
+    "level": "Intermedio",
+    "definition": "Something that produces an effect.",
+    "example": "The main cause of obesity is poor diet.",
+    "translation": "causa"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "challenge",
+    "level": "Intermedio",
+    "definition": "To question the truth or validity of something.",
+    "example": "The paper challenges traditional views.",
+    "translation": "mettere in discussione"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "claim",
+    "level": "Intermedio",
+    "definition": "To say something is true.",
+    "example": "Many scientists claim that climate change is man-made.",
+    "translation": "affermare"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "conclude",
+    "level": "Intermedio",
+    "definition": "To bring an essay or argument to an end.",
+    "example": "The essay concludes that prevention is better than cure.",
+    "translation": "concludere"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "Consequently",
+    "level": "Intermedio",
+    "definition": "Used to show an outcome or consequence.",
+    "example": "Consequently, pollution levels have decreased.",
+    "translation": "di conseguenza"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "consider",
+    "level": "Intermedio",
+    "definition": "To think about carefully.",
+    "example": "We must consider all possible outcomes.",
+    "translation": "considerare"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "contend",
+    "level": "Intermedio",
+    "definition": "To argue strongly for something.",
+    "example": "The author contends that technology reduces human contact.",
+    "translation": "contendere"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "criticize",
+    "level": "Intermedio",
+    "definition": "To point out faults or weaknesses.",
+    "example": "Critics often criticize the lack of transparency.",
+    "translation": "criticare"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "culture",
+    "level": "Intermedio",
+    "definition": "The customs, arts, and traditions of a group.",
+    "example": "Culture influences people’s values and behavior.",
+    "translation": "cultura"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "data",
+    "level": "Intermedio",
+    "definition": "Collected statistics or facts.",
+    "example": "The data indicates a rise in unemployment.",
+    "translation": "dati"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "debate",
+    "level": "Intermedio",
+    "definition": "A discussion of opposing opinions.",
+    "example": "The debate over gun control continues.",
+    "translation": "dibattere"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "demonstrate",
+    "level": "Intermedio",
+    "definition": "To show or prove by evidence.",
+    "example": "The findings demonstrate a clear link between poverty and health.",
+    "translation": "dimostrare"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "development",
+    "level": "Intermedio",
+    "definition": "A new or ongoing change or progress.",
+    "example": "The development of AI has transformed industries.",
+    "translation": "sviluppo"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "disadvantage",
+    "level": "Intermedio",
+    "definition": "A negative feature or weakness.",
+    "example": "A major disadvantage is the cost of living.",
+    "translation": "svantaggio"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "disagree",
+    "level": "Intermedio",
+    "definition": "To have a different opinion.",
+    "example": "Others disagree with this approach.",
+    "translation": "non essere d’accordo"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "discuss",
+    "level": "Intermedio",
+    "definition": "To talk or write about a topic in detail.",
+    "example": "The essay discusses the benefits of online learning.",
+    "translation": "discutere"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "drawback",
+    "level": "Intermedio",
+    "definition": "A problem or disadvantage.",
+    "example": "One drawback of social media is misinformation.",
+    "translation": "svantaggio"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "economy",
+    "level": "Intermedio",
+    "definition": "The system of money and trade.",
+    "example": "The economy has grown steadily over the past decade.",
+    "translation": "economia"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "education",
+    "level": "Intermedio",
+    "definition": "The process of teaching and learning.",
+    "example": "Education plays a crucial role in personal growth.",
+    "translation": "istruzione"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "effect",
+    "level": "Intermedio",
+    "definition": "A change or influence caused by something.",
+    "example": "The policy had a negative effect on small businesses.",
+    "translation": "effetto"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "emphasize",
+    "level": "Intermedio",
+    "definition": "To stress the importance of something.",
+    "example": "The article emphasizes mental health issues.",
+    "translation": "enfatizzare"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "environment",
+    "level": "Intermedio",
+    "definition": "The natural world and conditions affecting it.",
+    "example": "Environmental protection is essential for survival.",
+    "translation": "ambiente"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "evaluate",
+    "level": "Intermedio",
+    "definition": "To judge or assess carefully.",
+    "example": "The report evaluates different energy sources.",
+    "translation": "valutare"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "evidence",
+    "level": "Intermedio",
+    "definition": "Facts or information supporting an argument.",
+    "example": "The evidence supports the hypothesis.",
+    "translation": "prova"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "examine",
+    "level": "Intermedio",
+    "definition": "To investigate or look into a topic.",
+    "example": "This paper examines the impact of deforestation.",
+    "translation": "esaminare"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "example",
+    "level": "Intermedio",
+    "definition": "A specific case or instance.",
+    "example": "An example is the rapid growth of e-learning.",
+    "translation": "esempio"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "explain",
+    "level": "Intermedio",
+    "definition": "To make an idea or situation clear.",
+    "example": "He explained why education should be accessible.",
+    "translation": "spiegare"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "factor",
+    "level": "Intermedio",
+    "definition": "An element contributing to a result.",
+    "example": "Lack of funding is a key factor in failure.",
+    "translation": "fattore"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "finding",
+    "level": "Intermedio",
+    "definition": "Information discovered through study.",
+    "example": "The findings reveal interesting trends.",
+    "translation": "risultati"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "From my perspective",
+    "level": "Intermedio",
+    "definition": "Used to express personal perspective.",
+    "example": "From my perspective, balance is essential in life.",
+    "translation": "dal mio punto di vista"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "Furthermore",
+    "level": "Intermedio",
+    "definition": "Used to add more information.",
+    "example": "Furthermore, renewable energy is sustainable.",
+    "translation": "inoltre"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "globalization",
+    "level": "Intermedio",
+    "definition": "The process of international integration.",
+    "example": "Globalization creates new job opportunities.",
+    "translation": "globalizzazione"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "government",
+    "level": "Intermedio",
+    "definition": "The body governing a nation.",
+    "example": "The government should invest more in healthcare.",
+    "translation": "governo"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "health",
+    "level": "Intermedio",
+    "definition": "The condition of physical and mental well-being.",
+    "example": "Health awareness has increased in recent years.",
+    "translation": "salute"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "highlight",
+    "level": "Intermedio",
+    "definition": "To bring attention to something important.",
+    "example": "The paper highlights the importance of education.",
+    "translation": "mettere in evidenza"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "However",
+    "level": "Intermedio",
+    "definition": "Used to show contrast or opposition.",
+    "example": "However, this approach has some limitations.",
+    "translation": "tuttavia"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "illustrate",
+    "level": "Intermedio",
+    "definition": "To make something clear using examples.",
+    "example": "The article illustrates the rise of automation.",
+    "translation": "illustrare"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "impact",
+    "level": "Intermedio",
+    "definition": "A strong influence or effect.",
+    "example": "Pollution has a serious impact on wildlife.",
+    "translation": "impatto"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "In addition",
+    "level": "Intermedio",
+    "definition": "Used to introduce extra details.",
+    "example": "In addition, technology increases efficiency.",
+    "translation": "in aggiunta"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "In conclusion",
+    "level": "Intermedio",
+    "definition": "Used to end a discussion or essay.",
+    "example": "In conclusion, renewable energy is the key to the future.",
+    "translation": "in conclusione"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "In contrast",
+    "level": "Intermedio",
+    "definition": "Used to contrast with a previous idea.",
+    "example": "In contrast, urban areas are crowded and noisy.",
+    "translation": "in contrasto"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "In my opinion",
+    "level": "Intermedio",
+    "definition": "Used to state one’s opinion directly.",
+    "example": "In my opinion, governments should protect the environment.",
+    "translation": "secondo la mia opinione"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "inequality",
+    "level": "Intermedio",
+    "definition": "The state of being unequal in society.",
+    "example": "Income inequality remains a major concern.",
+    "translation": "disuguaglianza"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "issue",
+    "level": "Intermedio",
+    "definition": "An important topic or concern.",
+    "example": "Climate change is a serious issue.",
+    "translation": "questione"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "It can be argued that",
+    "level": "Intermedio",
+    "definition": "Used to introduce a debatable statement.",
+    "example": "It can be argued that education improves equality.",
+    "translation": "si può sostenere che"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "It is often said that",
+    "level": "Intermedio",
+    "definition": "Used to state something that is often said.",
+    "example": "It is often said that prevention is better than cure.",
+    "translation": "si dice spesso che"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "It is widely believed that",
+    "level": "Intermedio",
+    "definition": "Used to show a common belief.",
+    "example": "It is widely believed that exercise improves health.",
+    "translation": "si crede ampiamente che"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "It seems clear that",
+    "level": "Intermedio",
+    "definition": "Used to indicate something is obvious.",
+    "example": "It seems clear that education benefits everyone.",
+    "translation": "sembra chiaro che"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "justify",
+    "level": "Intermedio",
+    "definition": "To give reasons to show something is right or reasonable.",
+    "example": "The reasons justify the proposed policy.",
+    "translation": "giustificare"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "maintain",
+    "level": "Intermedio",
+    "definition": "To hold or express a belief or opinion.",
+    "example": "They maintain that global cooperation is necessary.",
+    "translation": "mantenere"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "Many people claim that",
+    "level": "Intermedio",
+    "definition": "Used to report a popular opinion.",
+    "example": "Many people claim that cities offer better opportunities.",
+    "translation": "molte persone affermano che"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "method",
+    "level": "Intermedio",
+    "definition": "A planned way of doing something.",
+    "example": "The method ensures consistent results.",
+    "translation": "metodo"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "Moreover",
+    "level": "Intermedio",
+    "definition": "Used to introduce additional points.",
+    "example": "Moreover, education reduces inequality.",
+    "translation": "per di più"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "On the other hand",
+    "level": "Intermedio",
+    "definition": "Used to introduce an opposite idea.",
+    "example": "On the other hand, rural life offers peace and simplicity.",
+    "translation": "d’altra parte"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "oppose",
+    "level": "Intermedio",
+    "definition": "To express disagreement or disapproval.",
+    "example": "Some experts oppose the new law.",
+    "translation": "opporsi"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "Overall",
+    "level": "Intermedio",
+    "definition": "Used to give a general conclusion.",
+    "example": "Overall, the evidence supports this argument.",
+    "translation": "nel complesso"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "perspective",
+    "level": "Intermedio",
+    "definition": "A particular point of view.",
+    "example": "From an academic perspective, the reform is positive.",
+    "translation": "prospettiva"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "policy",
+    "level": "Intermedio",
+    "definition": "A set of ideas or actions by an organization.",
+    "example": "Government policy aims to reduce pollution.",
+    "translation": "politica"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "problem",
+    "level": "Intermedio",
+    "definition": "A difficulty or challenge.",
+    "example": "The main problem is limited access to healthcare.",
+    "translation": "problema"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "process",
+    "level": "Intermedio",
+    "definition": "A series of steps taken to achieve a goal.",
+    "example": "The process takes several months to complete.",
+    "translation": "processo"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "propose",
+    "level": "Intermedio",
+    "definition": "To suggest a plan or idea.",
+    "example": "The plan proposes reducing carbon emissions.",
+    "translation": "proporre"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "question",
+    "level": "Intermedio",
+    "definition": "To doubt or disagree with an idea.",
+    "example": "Many people question the reliability of surveys.",
+    "translation": "mettere in dubbio"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "reason",
+    "level": "Intermedio",
+    "definition": "An explanation for something.",
+    "example": "The reason for failure was lack of planning.",
+    "translation": "ragione"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "recommend",
+    "level": "Intermedio",
+    "definition": "To suggest or advise something.",
+    "example": "The report recommends new safety measures.",
+    "translation": "raccomandare"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "refute",
+    "level": "Intermedio",
+    "definition": "To prove an argument or idea is false.",
+    "example": "The study refutes the previous theory.",
+    "translation": "confutare"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "result",
+    "level": "Intermedio",
+    "definition": "The outcome or consequence of an action.",
+    "example": "The result shows an increase in literacy rates.",
+    "translation": "risultato"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "situation",
+    "level": "Intermedio",
+    "definition": "A set of circumstances or context.",
+    "example": "The situation is improving gradually.",
+    "translation": "situazione"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "society",
+    "level": "Intermedio",
+    "definition": "People and how they organize their lives.",
+    "example": "Society faces growing challenges with aging populations.",
+    "translation": "società"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "solution",
+    "level": "Intermedio",
+    "definition": "A way to solve a problem.",
+    "example": "One possible solution is stricter regulation.",
+    "translation": "soluzione"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "standpoint",
+    "level": "Intermedio",
+    "definition": "A person’s way of thinking about an issue.",
+    "example": "From this standpoint, the policy is justified.",
+    "translation": "posizione"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "state",
+    "level": "Intermedio",
+    "definition": "To express something clearly.",
+    "example": "He stated that education should be free for everyone.",
+    "translation": "dichiarare"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "suggest",
+    "level": "Intermedio",
+    "definition": "To offer an idea for consideration.",
+    "example": "Researchers suggest improving water management.",
+    "translation": "suggerire"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "support",
+    "level": "Intermedio",
+    "definition": "To provide evidence or argument for something.",
+    "example": "The statistics support the main argument.",
+    "translation": "sostenere"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "system",
+    "level": "Intermedio",
+    "definition": "An organized set of rules or methods.",
+    "example": "The education system requires reform.",
+    "translation": "sistema"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "technology",
+    "level": "Intermedio",
+    "definition": "The use of science for practical purposes.",
+    "example": "Technology affects almost every aspect of life.",
+    "translation": "tecnologia"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "There is no doubt that",
+    "level": "Intermedio",
+    "definition": "Used to express certainty.",
+    "example": "There is no doubt that technology changes our lives.",
+    "translation": "non c’è dubbio che"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "Therefore",
+    "level": "Intermedio",
+    "definition": "Used to show a logical result.",
+    "example": "Therefore, immediate action is required.",
+    "translation": "pertanto"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "To sum up",
+    "level": "Intermedio",
+    "definition": "Used to summarize main points.",
+    "example": "To sum up, education is the foundation of progress.",
+    "translation": "per riassumere"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "trend",
+    "level": "Intermedio",
+    "definition": "A general pattern or direction of change.",
+    "example": "The trend shows growing urbanization.",
+    "translation": "tendenza"
+  },
+  {
+    "deckId": "writing-task2",
+    "deckName": "Writing Task 2 Academic",
+    "deckDescription": "Vocabolario chiave per argomentare e persuadere nei saggi di Task 2.",
+    "word": "viewpoint",
+    "level": "Intermedio",
+    "definition": "An opinion or position.",
+    "example": "His viewpoint differs from mine.",
+    "translation": "punto di vista"
   }
 ]

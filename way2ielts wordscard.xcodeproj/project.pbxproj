@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ED61F1012EA3BCE100CECF09 /* IELTS flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IELTS flashcards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED61F1122EA3BCE300CECF09 /* IELTS flashcardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IELTS flashcardsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED61F11C2EA3BCE300CECF09 /* IELTS flashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IELTS flashcardsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED61F1012EA3BCE100CECF09 /* way2ielts wordscard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "way2ielts wordscard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED61F1122EA3BCE300CECF09 /* way2ielts wordscardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "way2ielts wordscardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED61F11C2EA3BCE300CECF09 /* way2ielts wordscardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "way2ielts wordscardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		ED61F1242EA3BCE300CECF09 /* Exceptions for "IELTS flashcards" folder in "IELTS flashcards" target */ = {
+		ED61F1242EA3BCE300CECF09 /* Exceptions for "IELTS flashcards" folder in "way2ielts wordscard" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = ED61F1002EA3BCE100CECF09 /* IELTS flashcards */;
+			target = ED61F1002EA3BCE100CECF09 /* way2ielts wordscard */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		ED61F1032EA3BCE100CECF09 /* IELTS flashcards */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				ED61F1242EA3BCE300CECF09 /* Exceptions for "IELTS flashcards" folder in "IELTS flashcards" target */,
+				ED61F1242EA3BCE300CECF09 /* Exceptions for "IELTS flashcards" folder in "way2ielts wordscard" target */,
 			);
 			path = "IELTS flashcards";
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		ED61F1022EA3BCE100CECF09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED61F1012EA3BCE100CECF09 /* IELTS flashcards.app */,
-				ED61F1122EA3BCE300CECF09 /* IELTS flashcardsTests.xctest */,
-				ED61F11C2EA3BCE300CECF09 /* IELTS flashcardsUITests.xctest */,
+				ED61F1012EA3BCE100CECF09 /* way2ielts wordscard.app */,
+				ED61F1122EA3BCE300CECF09 /* way2ielts wordscardTests.xctest */,
+				ED61F11C2EA3BCE300CECF09 /* way2ielts wordscardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED61F1002EA3BCE100CECF09 /* IELTS flashcards */ = {
+		ED61F1002EA3BCE100CECF09 /* way2ielts wordscard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED61F1252EA3BCE300CECF09 /* Build configuration list for PBXNativeTarget "IELTS flashcards" */;
+			buildConfigurationList = ED61F1252EA3BCE300CECF09 /* Build configuration list for PBXNativeTarget "way2ielts wordscard" */;
 			buildPhases = (
 				ED61F0FD2EA3BCE100CECF09 /* Sources */,
 				ED61F0FE2EA3BCE100CECF09 /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				ED61F1032EA3BCE100CECF09 /* IELTS flashcards */,
 			);
-			name = "IELTS flashcards";
+			name = "way2ielts wordscard";
 			packageProductDependencies = (
 			);
 			productName = "IELTS flashcards";
-			productReference = ED61F1012EA3BCE100CECF09 /* IELTS flashcards.app */;
+			productReference = ED61F1012EA3BCE100CECF09 /* way2ielts wordscard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ED61F1112EA3BCE300CECF09 /* IELTS flashcardsTests */ = {
+		ED61F1112EA3BCE300CECF09 /* way2ielts wordscardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED61F12A2EA3BCE300CECF09 /* Build configuration list for PBXNativeTarget "IELTS flashcardsTests" */;
+			buildConfigurationList = ED61F12A2EA3BCE300CECF09 /* Build configuration list for PBXNativeTarget "way2ielts wordscardTests" */;
 			buildPhases = (
 				ED61F10E2EA3BCE300CECF09 /* Sources */,
 				ED61F10F2EA3BCE300CECF09 /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				ED61F1152EA3BCE300CECF09 /* IELTS flashcardsTests */,
 			);
-			name = "IELTS flashcardsTests";
+			name = "way2ielts wordscardTests";
 			packageProductDependencies = (
 			);
 			productName = "IELTS flashcardsTests";
-			productReference = ED61F1122EA3BCE300CECF09 /* IELTS flashcardsTests.xctest */;
+			productReference = ED61F1122EA3BCE300CECF09 /* way2ielts wordscardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ED61F11B2EA3BCE300CECF09 /* IELTS flashcardsUITests */ = {
+		ED61F11B2EA3BCE300CECF09 /* way2ielts wordscardUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED61F12D2EA3BCE300CECF09 /* Build configuration list for PBXNativeTarget "IELTS flashcardsUITests" */;
+			buildConfigurationList = ED61F12D2EA3BCE300CECF09 /* Build configuration list for PBXNativeTarget "way2ielts wordscardUITests" */;
 			buildPhases = (
 				ED61F1182EA3BCE300CECF09 /* Sources */,
 				ED61F1192EA3BCE300CECF09 /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				ED61F11F2EA3BCE300CECF09 /* IELTS flashcardsUITests */,
 			);
-			name = "IELTS flashcardsUITests";
+			name = "way2ielts wordscardUITests";
 			packageProductDependencies = (
 			);
 			productName = "IELTS flashcardsUITests";
-			productReference = ED61F11C2EA3BCE300CECF09 /* IELTS flashcardsUITests.xctest */;
+			productReference = ED61F11C2EA3BCE300CECF09 /* way2ielts wordscardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,12 +199,13 @@
 					};
 				};
 			};
-			buildConfigurationList = ED61F0FC2EA3BCE100CECF09 /* Build configuration list for PBXProject "IELTS flashcards" */;
+			buildConfigurationList = ED61F0FC2EA3BCE100CECF09 /* Build configuration list for PBXProject "way2ielts wordscard" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				it,
 			);
 			mainGroup = ED61F0F82EA3BCE100CECF09;
 			minimizedProjectReferenceProxies = 1;
@@ -213,9 +214,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED61F1002EA3BCE100CECF09 /* IELTS flashcards */,
-				ED61F1112EA3BCE300CECF09 /* IELTS flashcardsTests */,
-				ED61F11B2EA3BCE300CECF09 /* IELTS flashcardsUITests */,
+				ED61F1002EA3BCE100CECF09 /* way2ielts wordscard */,
+				ED61F1112EA3BCE300CECF09 /* way2ielts wordscardTests */,
+				ED61F11B2EA3BCE300CECF09 /* way2ielts wordscardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +272,12 @@
 /* Begin PBXTargetDependency section */
 		ED61F1142EA3BCE300CECF09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED61F1002EA3BCE100CECF09 /* IELTS flashcards */;
+			target = ED61F1002EA3BCE100CECF09 /* way2ielts wordscard */;
 			targetProxy = ED61F1132EA3BCE300CECF09 /* PBXContainerItemProxy */;
 		};
 		ED61F11E2EA3BCE300CECF09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED61F1002EA3BCE100CECF09 /* IELTS flashcards */;
+			target = ED61F1002EA3BCE100CECF09 /* way2ielts wordscard */;
 			targetProxy = ED61F11D2EA3BCE300CECF09 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -287,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5RQLC57A8N;
@@ -332,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5RQLC57A8N;
@@ -509,7 +512,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IELTS flashcards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IELTS flashcards";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/way2ielts wordscard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/way2ielts wordscard";
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
@@ -535,7 +538,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IELTS flashcards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IELTS flashcards";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/way2ielts wordscard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/way2ielts wordscard";
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
@@ -593,7 +596,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED61F0FC2EA3BCE100CECF09 /* Build configuration list for PBXProject "IELTS flashcards" */ = {
+		ED61F0FC2EA3BCE100CECF09 /* Build configuration list for PBXProject "way2ielts wordscard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED61F1282EA3BCE300CECF09 /* Debug */,
@@ -602,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED61F1252EA3BCE300CECF09 /* Build configuration list for PBXNativeTarget "IELTS flashcards" */ = {
+		ED61F1252EA3BCE300CECF09 /* Build configuration list for PBXNativeTarget "way2ielts wordscard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED61F1262EA3BCE300CECF09 /* Debug */,
@@ -611,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED61F12A2EA3BCE300CECF09 /* Build configuration list for PBXNativeTarget "IELTS flashcardsTests" */ = {
+		ED61F12A2EA3BCE300CECF09 /* Build configuration list for PBXNativeTarget "way2ielts wordscardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED61F12B2EA3BCE300CECF09 /* Debug */,
@@ -620,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED61F12D2EA3BCE300CECF09 /* Build configuration list for PBXNativeTarget "IELTS flashcardsUITests" */ = {
+		ED61F12D2EA3BCE300CECF09 /* Build configuration list for PBXNativeTarget "way2ielts wordscardUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED61F12E2EA3BCE300CECF09 /* Debug */,
