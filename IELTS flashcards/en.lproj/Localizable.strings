@@ -88,4 +88,9 @@
 "card.definition" = "Definition";
 "card.example" = "Example";
 "card.tap.hint" = "Tap to view the definition and example.";
+"card.translation.input" = "Enter the translation";
+"card.translation.submit" = "Check";
+"card.translation.correct" = "Correct! ✓";
+"card.translation.incorrect" = "Incorrect. The correct answer was:";
+"card.translation.check" = "Check answer";
 

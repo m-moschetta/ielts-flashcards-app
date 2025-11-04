@@ -79,9 +79,7 @@ struct ContentView: View {
                 }
                 .toolbar {
                     ToolbarItem(placement: .keyboard) {
-                        HStack {
-                            Spacer()
-                        }
+                        keyboardToolbar
                     }
                 }
                 .task {
@@ -109,6 +107,26 @@ struct ContentView: View {
     }
 
     @State private var showDeckSelection = false
+    
+    @ViewBuilder
+    private var keyboardToolbar: some View {
+        if !viewModel.showBack && !viewModel.userTranslation.isEmpty && !viewModel.isAnswerChecked {
+            HStack {
+                Spacer()
+                Button("card.translation.check".localized) {
+                    withAnimation(.easeInOut) {
+                        viewModel.checkAnswer()
+                    }
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(AppColors.reading(colorScheme))
+            }
+        } else {
+            HStack {
+                Spacer()
+            }
+        }
+    }
     
     private var optionsMenu: some View {
         Menu {
@@ -239,10 +257,20 @@ struct ContentView: View {
                 SwipeableFlashcardView(
                     card: card,
                     showBack: viewModel.showBack,
+                    userTranslation: viewModel.userTranslation,
+                    isAnswerChecked: viewModel.isAnswerChecked,
+                    onTranslationChanged: { newTranslation in
+                        viewModel.userTranslation = newTranslation
+                    },
                     onToggle: {
                         Haptics.selection()
                         withAnimation(.easeInOut) {
                             viewModel.toggleCard()
+                        }
+                    },
+                    onCheckAnswer: {
+                        withAnimation(.easeInOut) {
+                            viewModel.checkAnswer()
                         }
                     },
                     onSwipe: { outcome in
@@ -253,20 +281,16 @@ struct ContentView: View {
                 )
                 .frame(height: cardHeight)
 
-                Text(viewModel.showBack ? "study.swipe.hint".localized : "study.tap.card".localized)
-                    .font(.footnote)
-                    .foregroundStyle(.secondary)
-                    .frame(maxWidth: .infinity, alignment: .center)
-
-                if !viewModel.showBack {
-                    Button("study.show.answer".localized) {
-                        withAnimation(.easeInOut) {
-                            viewModel.toggleCard()
-                        }
-                    }
-                    .buttonStyle(.borderedProminent)
-                    .tint(AppColors.reading(colorScheme))
-                    .frame(maxWidth: .infinity)
+                if viewModel.showBack && !viewModel.isAnswerChecked {
+                    Text("study.swipe.hint".localized)
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                } else if !viewModel.showBack {
+                    Text("card.translation.input".localized)
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                        .frame(maxWidth: .infinity, alignment: .center)
                 }
 
                 Spacer(minLength: 12)
@@ -319,7 +343,11 @@ struct ContentView: View {
 private struct SwipeableFlashcardView: View {
     let card: Flashcard
     let showBack: Bool
+    let userTranslation: String
+    let isAnswerChecked: Bool
+    let onTranslationChanged: (String) -> Void
     let onToggle: () -> Void
+    let onCheckAnswer: () -> Void
     let onSwipe: (ReviewOutcome) -> Void
 
     @State private var translation: CGSize = .zero
@@ -331,45 +359,54 @@ private struct SwipeableFlashcardView: View {
     private let verticalThreshold: CGFloat = 100
 
     var body: some View {
-        FlashcardStudyCard(card: card, showBack: showBack)
+        FlashcardStudyCard(
+            card: card,
+            showBack: showBack,
+            userTranslation: userTranslation,
+            isAnswerChecked: isAnswerChecked,
+            onTranslationChanged: onTranslationChanged,
+            onCheckAnswer: onCheckAnswer
+        )
             .contentShape(Rectangle())
             .offset(translation)
             .rotationEffect(.degrees(Double(translation.width / 15)))
             .scaleEffect(isDragging ? 0.98 : 1.0)
             .overlay(alignment: .topLeading) {
-                if showBack && translation.width < -60 {
-                    SwipeBadge(text: "Ripeti", color: AppColors.reviewAgain(colorScheme))
+                if showBack && isAnswerChecked && translation.width < -60 {
+                    SwipeBadge(text: "study.again".localized, color: AppColors.reviewAgain(colorScheme))
                         .padding(16)
                 }
             }
             .overlay(alignment: .topTrailing) {
-                if showBack && translation.width > 60 {
-                    SwipeBadge(text: "Facile", color: AppColors.reviewEasy(colorScheme))
+                if showBack && isAnswerChecked && translation.width > 60 {
+                    SwipeBadge(text: "study.easy".localized, color: AppColors.reviewEasy(colorScheme))
                         .padding(16)
                 }
             }
             .overlay(alignment: .top) {
-                if showBack && translation.height < -60 {
-                    SwipeBadge(text: "Buono", color: AppColors.reviewGood(colorScheme))
+                if showBack && isAnswerChecked && translation.height < -60 {
+                    SwipeBadge(text: "study.good".localized, color: AppColors.reviewGood(colorScheme))
                         .padding(.top, 28)
                 }
             }
             .gesture(dragGesture)
             .onTapGesture {
-                onToggle()
+                if isAnswerChecked {
+                    onToggle()
+                }
             }
     }
 
     private var dragGesture: some Gesture {
         DragGesture()
             .onChanged { value in
-                guard showBack, !isAnimatingOut else { return }
+                guard showBack && isAnswerChecked, !isAnimatingOut else { return }
                 translation = value.translation
                 isDragging = true
             }
             .onEnded { value in
                 isDragging = false
-                guard showBack, !isAnimatingOut else {
+                guard showBack && isAnswerChecked, !isAnimatingOut else {
                     resetPosition()
                     return
                 }
@@ -492,6 +529,8 @@ final class StudySessionViewModel: ObservableObject {
     @Published private(set) var orderedCards: [Flashcard] = []
     @Published private(set) var currentCard: Flashcard?
     @Published var showBack = false
+    @Published var userTranslation: String = ""
+    @Published var isAnswerChecked: Bool = false
 
     private let loadCards: () throws -> [Flashcard]
     private let progressStore: FlashcardProgressStore
@@ -572,7 +611,15 @@ final class StudySessionViewModel: ObservableObject {
 
     func toggleCard() {
         guard currentCard != nil else { return }
-        showBack.toggle()
+        if !showBack {
+            showBack = true
+        }
+    }
+    
+    func checkAnswer() {
+        guard let card = currentCard else { return }
+        isAnswerChecked = true
+        showBack = true
     }
 
     func review(_ outcome: ReviewOutcome) {
@@ -585,6 +632,8 @@ final class StudySessionViewModel: ObservableObject {
         progressStore.setProgress(updated, for: card)
 
         showBack = false
+        userTranslation = ""
+        isAnswerChecked = false
         refreshQueue(now: now)
     }
 
@@ -592,11 +641,13 @@ final class StudySessionViewModel: ObservableObject {
         progressStore.reset()
         progressById.removeAll()
         showBack = false
+        userTranslation = ""
+        isAnswerChecked = false
         refreshQueue()
     }
 
     var canReviewCurrentCard: Bool {
-        currentCard != nil && showBack
+        currentCard != nil && showBack && isAnswerChecked
     }
 
     var totalCount: Int {
@@ -726,6 +777,12 @@ final class StudySessionViewModel: ObservableObject {
         }
 
         currentCard = dueCards.first ?? orderedCards.first
+        
+        if currentCard != nil {
+            userTranslation = ""
+            isAnswerChecked = false
+            showBack = false
+        }
     }
 }
 
@@ -775,7 +832,21 @@ private struct StudyHeaderView: View {
 private struct FlashcardStudyCard: View {
     let card: Flashcard
     let showBack: Bool
+    let userTranslation: String
+    let isAnswerChecked: Bool
+    let onTranslationChanged: (String) -> Void
+    let onCheckAnswer: () -> Void
     @Environment(\.colorScheme) var colorScheme
+    @FocusState private var isTextFieldFocused: Bool
+
+    private var isCorrect: Bool {
+        guard isAnswerChecked else { return false }
+        let normalizedUserInput = userTranslation.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
+        let normalizedCorrect = card.translation.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
+        return normalizedUserInput == normalizedCorrect || 
+               normalizedUserInput.contains(normalizedCorrect) || 
+               normalizedCorrect.contains(normalizedUserInput)
+    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -783,29 +854,94 @@ private struct FlashcardStudyCard: View {
                 .font(.largeTitle.weight(.bold))
                 .foregroundStyle(AppColors.secondary(colorScheme))
 
-            Text(card.translation)
-                .font(.title3)
-                .foregroundStyle(AppColors.primary(colorScheme))
-
             Divider()
 
-            if showBack {
-                VStack(alignment: .leading, spacing: 12) {
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text("card.definition".localized)
-                            .font(.headline)
-                            .foregroundStyle(AppColors.reading(colorScheme))
-                        Text(card.definition)
-                            .foregroundStyle(.primary)
+            if !showBack {
+                // Mostra campo di input per la traduzione
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("card.translation.input".localized)
+                        .font(.headline)
+                        .foregroundStyle(AppColors.primary(colorScheme))
+                    
+                    HStack(spacing: 8) {
+                        TextField("card.translation.input".localized, text: Binding(
+                            get: { userTranslation },
+                            set: { onTranslationChanged($0) }
+                        ), axis: .vertical)
+                        .textFieldStyle(.roundedBorder)
+                        .font(.title3)
+                        .focused($isTextFieldFocused)
+                        .lineLimit(2...4)
+                        .disabled(isAnswerChecked)
+                        .onSubmit {
+                            if !userTranslation.isEmpty {
+                                isTextFieldFocused = false
+                                onCheckAnswer()
+                            } else {
+                                isTextFieldFocused = false
+                            }
+                        }
+                        
+                        if !userTranslation.isEmpty && !isAnswerChecked {
+                            Button {
+                                isTextFieldFocused = false
+                                onCheckAnswer()
+                            } label: {
+                                Image(systemName: "checkmark.circle.fill")
+                                    .font(.title2)
+                                    .foregroundStyle(AppColors.reading(colorScheme))
+                            }
+                            .buttonStyle(.plain)
+                        }
                     }
+                }
+            } else if isAnswerChecked {
+                // Mostra feedback dopo la verifica
+                VStack(alignment: .leading, spacing: 12) {
+                    if isCorrect {
+                        HStack {
+                            Image(systemName: "checkmark.circle.fill")
+                                .foregroundStyle(AppColors.speaking(colorScheme))
+                            Text("card.translation.correct".localized)
+                                .foregroundStyle(AppColors.speaking(colorScheme))
+                                .fontWeight(.semibold)
+                        }
+                    } else {
+                        VStack(alignment: .leading, spacing: 8) {
+                            HStack {
+                                Image(systemName: "xmark.circle.fill")
+                                    .foregroundStyle(AppColors.reviewAgain(colorScheme))
+                                Text("card.translation.incorrect".localized)
+                                    .foregroundStyle(AppColors.reviewAgain(colorScheme))
+                                    .fontWeight(.semibold)
+                            }
+                            Text(card.translation)
+                                .font(.title3)
+                                .foregroundStyle(AppColors.primary(colorScheme))
+                                .padding(.leading, 24)
+                        }
+                    }
+                    
+                    Divider()
+                        .padding(.vertical, 4)
+                    
+                    VStack(alignment: .leading, spacing: 12) {
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text("card.definition".localized)
+                                .font(.headline)
+                                .foregroundStyle(AppColors.reading(colorScheme))
+                            Text(card.definition)
+                                .foregroundStyle(.primary)
+                        }
 
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text("card.example".localized)
-                            .font(.headline)
-                            .foregroundStyle(AppColors.reading(colorScheme))
-                        Text("\u{201C}\(card.example)\u{201D}")
-                            .italic()
-                            .foregroundStyle(.secondary)
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text("card.example".localized)
+                                .font(.headline)
+                                .foregroundStyle(AppColors.reading(colorScheme))
+                            Text("\u{201C}\(card.example)\u{201D}")
+                                .italic()
+                                .foregroundStyle(.secondary)
+                        }
                     }
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
